@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="36" y="51" width="549" height="30" fill=" none " />
+            <g transform="translate(40, 71)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">The&#160;mother&#160;monkey&#160;holds&#160;her&#160;baby&#160;with&#160;a&#160;left&#160;chest.</text>
+            </g>
+            <rect x="36" y="81" width="642" height="30" fill=" none " />
+            <g transform="translate(40, 101)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">In&#160;many&#160;of&#160;artistic&#160;production,&#160;mother&#160;holds&#160;with&#160;a&#160;left&#160;chest.&#160;</text>
+            </g>
+            <rect x="36" y="111" width="639" height="30" fill=" none " />
+            <g transform="translate(40, 131)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">It&#160;settles&#160;down&#160;the&#160;baby&#160;when&#160;the&#160;heart&#160;beat&#160;sound&#160;is&#160;heard.&#160;</text>
+            </g>
+            <rect x="36" y="142" width="672" height="30" fill=" none " />
+            <g transform="translate(40, 162)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">Prematurely&#160;born&#160;baby's&#160;mother&#160;holds&#160;a&#160;baby&#160;with&#160;a&#160;right&#160;chest.&#160;</text>
+            </g>
+</g>
+</svg>

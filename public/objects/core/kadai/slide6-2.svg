@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <path d="M 126 210 L 90 264 L 162 264 Z" stroke-width="" stroke="" 
+fill="#DEDDF7" />
+                <image x="52" y="408" width="200px" height="120px" xlink:href="./img/6_6.gif"/>
+            <rect x="222" y="276" width="55" height="180" fill="#FFFFFF" />
+            <rect x="243" y="289" width="43" height="134" fill=" none " />
+            <g transform="translate(247, 309)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="24">dangerous</text>
+            </g>
+            <rect x="22" y="276" width="36" height="180" fill="#FFFFFF" />
+            <rect x="21" y="286" width="43" height="160" fill=" none " />
+            <g transform="translate(25, 306)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="24">conservative</text>
+            </g>
+            <defs><symbol id="ShapeRightArrow"><path d="M 50,10 L 35,20 35,15 0,15 0,5 35,5 35,0 50,10 Z"/></symbol></defs>
+            <use xlink:href="#ShapeRightArrow" stroke=""  stroke-width="0"  fill="#FFFFFF"  transform="translate(78,288) scale(2.88,4.7)"/>
+            <rect x="74" y="300" width="85" height="36" fill=" none " />
+            <g transform="translate(78, 320)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="24">group</text>
+            </g>
+            <rect x="72" y="326" width="138" height="36" fill=" none " />
+            <g transform="translate(76, 346)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="24">discussion</text>
+            </g>
+            <rect x="218" y="289" width="43" height="136" fill=" none " />
+            <g transform="translate(222, 309)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="24">big&#160;reward</text>
+            </g>
+</g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="43" y="70" width="690" height="65" fill=" none " />
+            <g transform="translate(47, 90)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="24">It&#160;is&#160;easy&#160;for&#160;the&#160;group&#160;discussion&#160;to&#160;make&#160;a&#160;decision&#160;which&#160;adventures&#160;and&#160;is&#160;dangerous.</text>
+            </g>
+</g>
+</svg>

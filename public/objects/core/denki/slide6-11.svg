@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <line x1="639"  y1="383" x2="682" y2="383" style="stroke:#935401;stroke-width:3;" />
+            <line x1="639"  y1="459" x2="682" y2="459" style="stroke:#935401;stroke-width:3;" />
+            <ellipse cx="687.5" cy="381.5" rx="9.5" ry="9.5" fill="#9C0068" />
+            <ellipse cx="687.5" cy="381.5" rx="3.5" ry="3.5" fill="#935401" />
+            <ellipse cx="687.5" cy="458.5" rx="9.5" ry="9.5" fill="#9C0068" />
+            <ellipse cx="687.5" cy="458.5" rx="3.5" ry="3.5" fill="#935401" />
+            <line x1="680"  y1="401" x2="680" y2="443" style="stroke:#000000;stroke-width:2;" />
+            <rect x="680" y="405" width="28" height="36" fill=" none " />
+            <g transform="translate(684, 425)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ｅ</text>
+            </g>
+</g>
+</svg>

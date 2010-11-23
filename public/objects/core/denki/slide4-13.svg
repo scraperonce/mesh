@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="15" y="419" width="149" height="87" fill="#DED9FF" />
+            <rect x="106" y="423" width="47" height="40" fill="#000000" />
+            <rect x="108" y="425" width="43" height="36" fill=" none " />
+            <ellipse cx="83" cy="470.5" rx="19" ry="17.5" fill="#000000" />
+            <ellipse cx="83" cy="470.5" rx="15" ry="13.5" fill="" />
+            <line x1="82"  y1="443" x2="82" y2="456" style="stroke:#000000;stroke-width:2;" />
+            <line x1="82"  y1="485" x2="82" y2="499" style="stroke:#000000;stroke-width:2;" />
+            <line x1="82"  y1="443" x2="107" y2="443" style="stroke:#000000;stroke-width:2;" />
+            <ellipse cx="82" cy="443" rx="8" ry="8" fill="#000000" />
+            <ellipse cx="82" cy="443" rx="4" ry="4" fill="#004D00" />
+            <ellipse cx="82" cy="499" rx="8" ry="8" fill="#000000" />
+            <ellipse cx="82" cy="499" rx="4" ry="4" fill="#004D00" />
+            <rect x="62" y="454" width="38" height="36" fill=" none " />
+            <g transform="translate(66, 474)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">～</text>
+            </g>
+            <rect x="108" y="427" width="42" height="36" fill=" none " />
+            <g transform="translate(112, 447)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｚo</text>
+            </g>
+            <rect x="12" y="454" width="46" height="36" fill=" none " />
+            <g transform="translate(16, 474)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｅ
+                 <tspan   font-family="Times New Roman" font-size="20">ｏ</tspan></text>
+            </g>
+            <line x1="57"  y1="451" x2="57" y2="484" style="stroke:#005BB6;stroke-width:3;" />
+            <line x1="88"  y1="499" x2="170" y2="499" style="stroke:#000000;stroke-width:2;" />
+            <rect x="41" y="505" width="74" height="31" fill=" none " />
+            <g transform="translate(45, 525)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">電気系</text>
+            </g>
+            <line x1="152"  y1="443" x2="171" y2="443" style="stroke:#000000;stroke-width:2;" />
+</g>
+</svg>

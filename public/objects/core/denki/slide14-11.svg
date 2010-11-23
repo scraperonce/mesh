@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectStretch","speed":"500"
+                        <g id="groupstart">
+            <rect x="99" y="329" width="87" height="31" fill=" none " />
+            <g transform="translate(103, 349)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">第２気室</text>
+            </g>
+            <rect x="270" y="372" width="84" height="31" fill=" none " />
+            <g transform="translate(274, 392)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">第１気室</text>
+            </g>
+            <rect x="267" y="351" width="54" height="31" fill=" none " />
+            <g transform="translate(271, 371)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">補正</text>
+            </g>
+            <rect x="118" y="350" width="70" height="31" fill=" none " />
+            <g transform="translate(122, 370)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">と細管</text>
+            </g>
+            <rect x="95" y="308" width="54" height="31" fill=" none " />
+            <g transform="translate(99, 328)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">補正</text>
+            </g>
+            <line x1="116"  y1="360" x2="122" y2="396" style="stroke:#000000;stroke-width:2;" />
+</g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectRandomBars","speed":"500"
+                        <g id="groupstart">
+                <image x="238" y="66" width="230px" height="332px" xlink:href="./img/17_4.gif"/>
+            <rect x="260" y="404" width="114" height="31" fill=" none " />
+            <g transform="translate(264, 424)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">単一指向性</text>
+            </g>
+            <rect x="260" y="428" width="160" height="31" fill=" none " />
+            <g transform="translate(264, 448)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">コンデンサマイク</text>
+            </g>
+</g>
+</svg>

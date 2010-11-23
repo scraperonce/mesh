@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="312" y="480" width="390" height="29" fill=" none " />
+            <g transform="translate(316, 500)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="18">「Sunday&#160;Afternoon&#160;on&#160;La&#160;Grande&#160;Jatte」</text>
+            </g>
+            <rect x="282" y="194" width="436" height="290" fill=" none " />
+                <image x="282" y="194" width="436px" height="290px" xlink:href="./img/11_13.gif"/>
+            <rect x="576" y="506" width="144" height="29" fill=" none " />
+            <g transform="translate(580, 526)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="18">1886&#160;Seurat</text>
+            </g>
+</g>
+</svg>

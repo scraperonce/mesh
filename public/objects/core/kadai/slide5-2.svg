@@ -1,0 +1,62 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="24" y="79" width="666" height="29" fill="#F6EEB6" />
+            <rect x="30" y="82" width="636" height="26" fill=" none " />
+            <g transform="translate(34, 102)" text-anchor="start">
+                <text x="0" y="0" fill="#800000" font-family="Verdana" font-size="16">Emotions&#160;have&#160;two&#160;ingredients:&#160;physiological&#160;arousal&#160;and&#160;a&#160;cognitave&#160;label
+                 <tspan  fill="#800000" font-family="Verdana" font-size="14">.</tspan></text>
+            </g>
+            <rect x="636" y="137" width="34" height="79" fill=" none " />
+            <g transform="translate(640, 157)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="16">labels</text>
+            </g>
+            <rect x="428" y="130" width="60" height="12" fill="#83A0D5" />
+            <rect x="486" y="122" width="100" height="25" fill=" none " />
+            <ellipse cx="428" cy="136" rx="12" ry="12" fill="#3D67B3" />
+            <rect x="428" y="197" width="60" height="12" fill="#83A0D5" />
+            <ellipse cx="428" cy="203" rx="12" ry="12" fill="#3D67B3" />
+            <rect x="434" y="164" width="60" height="12" fill="#83A0D5" />
+            <ellipse cx="440" cy="170" rx="12" ry="12" fill="#3D67B3" />
+            <rect x="498" y="117" width="73" height="26" fill=" none " />
+            <g transform="translate(502, 137)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="16">love</text>
+            </g>
+            <rect x="484" y="186" width="141" height="26" fill=" none " />
+            <g transform="translate(488, 206)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="16">abhorrence</text>
+            </g>
+            <rect x="499" y="150" width="114" height="26" fill=" none " />
+            <g transform="translate(503, 170)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="16">rejoicing</text>
+            </g>
+            <rect x="232" y="194" width="196" height="22" fill=" none " />
+            <g transform="translate(236, 214)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="16">acknowledgment</text>
+            </g>
+            <rect x="192" y="163" width="161" height="11" fill="#83A0D5" />
+            <ellipse cx="353" cy="169" rx="12" ry="12" fill="#3D67B3" />
+            <rect x="350" y="119" width="47" height="36" fill=" none " />
+            <g transform="translate(354, 139)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="24">ws</text>
+            </g>
+            <g  transform="rotate(22.8762,392,185)">
+            <rect x="362" y="179" width="60" height="12" fill="#7797D1" />
+            </g>
+            <rect x="56" y="137" width="184" height="29" fill=" none " />
+            <g transform="translate(60, 157)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">physiological</text>
+            </g>
+            <rect x="656" y="120" width="34" height="120" fill=" none " />
+            <g transform="translate(660, 140)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="16">cognitive</text>
+            </g>
+            <rect x="91" y="164" width="138" height="29" fill=" none " />
+            <g transform="translate(95, 184)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">arousal</text>
+            </g>
+</g>
+</svg>

@@ -1,0 +1,100 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectZoom","speed":"500"
+                        <g id="groupstart">
+            <rect x="68" y="311" width="270" height="178" fill="#FFFFFF" />
+            <line x1="68"  y1="489" x2="337" y2="489" style="stroke:#000000;stroke-width:3;" />
+            <rect x="281" y="486" width="46" height="31" fill=" none " />
+            <g transform="translate(285, 506)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">10k</text>
+            </g>
+            <rect x="316" y="486" width="46" height="31" fill=" none " />
+            <g transform="translate(320, 506)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">20k</text>
+            </g>
+            <rect x="208" y="508" width="143" height="31" fill=" none " />
+            <g transform="translate(212, 528)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">周波数（Ｈｚ）</text>
+            </g>
+            <line x1="69"  y1="309" x2="69" y2="487" style="stroke:#000000;stroke-width:3;" />
+            <line x1="69"  y1="459" x2="78" y2="459" style="stroke:#000000;stroke-width:3;" />
+            <line x1="69"  y1="431" x2="78" y2="431" style="stroke:#000000;stroke-width:3;" />
+            <line x1="69"  y1="404" x2="78" y2="404" style="stroke:#000000;stroke-width:3;" />
+            <line x1="69"  y1="377" x2="78" y2="377" style="stroke:#000000;stroke-width:3;" />
+            <line x1="69"  y1="349" x2="78" y2="349" style="stroke:#000000;stroke-width:3;" />
+            <line x1="69"  y1="322" x2="78" y2="322" style="stroke:#000000;stroke-width:3;" />
+            <line x1="147"  y1="482" x2="147" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="164"  y1="482" x2="164" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="176"  y1="482" x2="176" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="184"  y1="482" x2="184" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="192"  y1="482" x2="192" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="199"  y1="482" x2="199" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="205"  y1="482" x2="205" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="209"  y1="482" x2="209" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="213"  y1="482" x2="213" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="241"  y1="482" x2="241" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="258"  y1="482" x2="258" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="270"  y1="482" x2="270" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="278"  y1="482" x2="278" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="286"  y1="482" x2="286" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="293"  y1="482" x2="293" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="299"  y1="482" x2="299" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="303"  y1="482" x2="303" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="308"  y1="482" x2="308" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <rect x="158" y="352" width="107" height="31" fill=" none " />
+            <g transform="translate(162, 372)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">レスポンス</text>
+            </g>
+            <rect x="99" y="486" width="44" height="31" fill=" none " />
+            <g transform="translate(103, 506)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">100</text>
+            </g>
+            <rect x="146" y="486" width="44" height="31" fill=" none " />
+            <g transform="translate(150, 506)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">300</text>
+            </g>
+            <rect x="200" y="486" width="36" height="31" fill=" none " />
+            <g transform="translate(204, 506)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">1k</text>
+            </g>
+            <rect x="245" y="486" width="36" height="31" fill=" none " />
+            <g transform="translate(249, 506)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">3k</text>
+            </g>
+            <line x1="80"  y1="482" x2="80" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="88"  y1="482" x2="88" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="96"  y1="482" x2="96" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="103"  y1="482" x2="103" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="109"  y1="482" x2="109" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="113"  y1="482" x2="113" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <line x1="118"  y1="482" x2="118" y2="488" style="stroke:#000000;stroke-width:3;" />
+            <rect x="54" y="486" width="34" height="31" fill=" none " />
+            <g transform="translate(58, 506)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">30</text>
+            </g>
+            <rect x="43" y="334" width="24" height="31" fill=" none " />
+            <g transform="translate(47, 354)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">0</text>
+            </g>
+            <rect x="31" y="389" width="41" height="31" fill=" none " />
+            <g transform="translate(35, 409)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">-10</text>
+            </g>
+            <rect x="30" y="443" width="41" height="31" fill=" none " />
+            <g transform="translate(34, 463)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">-20</text>
+            </g>
+            <g  transform="rotate(270,24,369.5)">
+            <rect x="-62" y="354" width="172" height="31" fill=" none " />
+            <g transform="translate(-58, 374)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">レスポンス（ｄｂ）</text>
+            </g>
+            </g>
+            <rect x="32" y="270" width="347" height="36" fill=" none " />
+            <g transform="translate(36, 290)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">（低電圧駆動、スピーカ正面）</text>
+            </g>
+</g>
+</svg>

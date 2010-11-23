@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="47" y="293" width="416" height="36" fill=" none " />
+            <g transform="translate(51, 313)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">無響室内部で点音源からの音場を測定</text>
+            </g>
+            <rect x="47" y="323" width="635" height="36" fill=" none " />
+            <g transform="translate(51, 343)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">カプラーで音源とマイクをつないで計測し、後で回折係数を</text>
+            </g>
+            <rect x="29" y="257" width="260" height="36" fill=" none " />
+            <g transform="translate(33, 277)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">マイクロフォン感度測定</text>
+            </g>
+</g>
+</svg>

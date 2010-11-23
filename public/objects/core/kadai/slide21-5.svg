@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="24" y="71" width="358" height="31" fill=" none " />
+            <g transform="translate(203, 98.5)" text-anchor="middle">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">It&#160;cannot&#160;be&#160;easy&#160;for&#160;red&#160;and&#160;blue</text>
+            </g>
+            <rect x="-2" y="42" width="350" height="31" fill=" none " />
+            <g transform="translate(2, 69.5)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">・Chromatism&#160;&#160;caused&#160;in&#160;eyeball</text>
+            </g>
+            <rect x="-2" y="146" width="334" height="31" fill=" none " />
+            <g transform="translate(2, 173.5)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">・Retina&#160;afterimage&#160;and&#160;blinking</text>
+            </g>
+            <rect x="20" y="171" width="334" height="31" fill=" none " />
+            <g transform="translate(187, 198.5)" text-anchor="middle">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">The&#160;tiredness&#160;feeling&#160;is&#160;reduced</text>
+            </g>
+            <rect x="24" y="93" width="276" height="31" fill=" none " />
+            <g transform="translate(162, 120.5)" text-anchor="middle">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">to&#160;do&#160;the&#160;focus&#160;unification</text>
+            </g>
+            <rect x="24" y="115" width="186" height="31" fill=" none " />
+            <g transform="translate(117, 142.5)" text-anchor="middle">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">at&#160;the&#160;same&#160;time</text>
+            </g>
+            <rect x="20" y="194" width="221" height="31" fill=" none " />
+            <g transform="translate(130.5, 221.5)" text-anchor="middle">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">by&#160;the&#160;added&#160;sound.</text>
+            </g>
+            <rect x="20" y="248" width="127" height="31" fill=" none " />
+            <g transform="translate(83.5, 275.5)" text-anchor="middle">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">movie&#160;area</text>
+            </g>
+            <rect x="20" y="223" width="300" height="31" fill=" none " />
+            <g transform="translate(170, 250.5)" text-anchor="middle">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">It&#160;is&#160;seen&#160;as&#160;the&#160;gray&#160;in&#160;the&#160;</text>
+            </g>
+</g>
+</svg>

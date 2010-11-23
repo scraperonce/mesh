@@ -1,0 +1,98 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectZoom","speed":"500"
+                        <g id="groupstart">
+            <rect x="75" y="141" width="558" height="108" fill="#FFD5DD" />
+            <rect x="77" y="149" width="194" height="36" fill=" none " />
+            <g transform="translate(81, 169)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">電圧感度＝20&#160;log</text>
+            </g>
+            <rect x="259" y="137" width="62" height="36" fill=" none " />
+            <g transform="translate(263, 157)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｐ&#160;
+                 <tspan   font-family="Times New Roman" font-size="24">/</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">Ｅ</tspan></text>
+            </g>
+            <line x1="267"  y1="168" x2="319" y2="168" style="stroke:#000000;stroke-width:2;" />
+            <rect x="328" y="138" width="92" height="36" fill=" none " />
+            <g transform="translate(332, 158)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Pa/Volt</text>
+            </g>
+            <rect x="305" y="137" width="140" height="36" fill=" none " />
+            <g transform="translate(309, 157)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">［　　　&#160;］</text>
+            </g>
+            <rect x="278" y="164" width="26" height="36" fill=" none " />
+            <g transform="translate(282, 184)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">1</text>
+            </g>
+            <line x1="330"  y1="168" x2="426" y2="168" style="stroke:#000000;stroke-width:2;" />
+            <rect x="328" y="165" width="92" height="36" fill=" none " />
+            <g transform="translate(332, 185)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Pa/Volt</text>
+            </g>
+            <rect x="305" y="164" width="140" height="36" fill=" none " />
+            <g transform="translate(309, 184)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">［　　　&#160;］</text>
+            </g>
+            <rect x="431" y="149" width="98" height="36" fill=" none " />
+            <g transform="translate(435, 169)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">＝20&#160;log</text>
+            </g>
+            <line x1="528"  y1="168" x2="558" y2="168" style="stroke:#000000;stroke-width:2;" />
+            <rect x="529" y="137" width="32" height="36" fill=" none " />
+            <g transform="translate(533, 157)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｐ</text>
+            </g>
+            <rect x="529" y="164" width="33" height="36" fill=" none " />
+            <g transform="translate(533, 184)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｅ</text>
+            </g>
+            <rect x="77" y="204" width="194" height="36" fill=" none " />
+            <g transform="translate(81, 224)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">電力感度＝20&#160;log</text>
+            </g>
+            <line x1="267"  y1="223" x2="321" y2="223" style="stroke:#000000;stroke-width:2;" />
+            <rect x="323" y="204" width="98" height="36" fill=" none " />
+            <g transform="translate(327, 224)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">＝20&#160;log</text>
+            </g>
+            <line x1="420"  y1="223" x2="468" y2="223" style="stroke:#000000;stroke-width:2;" />
+            <rect x="268" y="192" width="53" height="36" fill=" none " />
+            <g transform="translate(272, 212)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">P
+                 <tspan   font-family="Times New Roman" font-size="24">√</tspan></text>
+            </g>
+            <rect x="278" y="219" width="30" height="36" fill=" none " />
+            <g transform="translate(282, 239)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">E</text>
+            </g>
+            <rect x="297" y="195" width="28" height="31" fill=" none " />
+            <g transform="translate(301, 215)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">Ｚ</text>
+            </g>
+            <rect x="416" y="220" width="48" height="36" fill=" none " />
+            <g transform="translate(420, 240)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｉ
+                 <tspan   font-family="Times New Roman" font-size="24">√</tspan></text>
+            </g>
+            <rect x="445" y="223" width="28" height="31" fill=" none " />
+            <g transform="translate(449, 243)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">Ｚ</text>
+            </g>
+            <rect x="430" y="192" width="29" height="36" fill=" none " />
+            <g transform="translate(434, 212)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">P</text>
+            </g>
+            <rect x="551" y="149" width="96" height="36" fill=" none " />
+            <g transform="translate(555, 169)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">［ｄＢ］</text>
+            </g>
+            <rect x="461" y="204" width="96" height="36" fill=" none " />
+            <g transform="translate(465, 224)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">［ｄＢ］</text>
+            </g>
+</g>
+</svg>

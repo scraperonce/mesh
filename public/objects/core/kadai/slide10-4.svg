@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="298" y="71" width="379" height="31" fill=" none " />
+            <g transform="translate(302, 91)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">They&#160;are&#160;the&#160;race&#160;who&#160;only&#160;left&#160;runs</text>
+            </g>
+            <rect x="299" y="95" width="388" height="31" fill=" none " />
+            <g transform="translate(303, 115)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">batted&#160;in&#160;art&#160;of&#160;painting&#160;in&#160;the&#160;world.</text>
+            </g>
+</g>
+</svg>

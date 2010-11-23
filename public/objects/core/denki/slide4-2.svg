@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectZoom","speed":"500"
+                        <g id="groupstart">
+            <line x1="301"  y1="438" x2="330" y2="438" style="stroke:#000000;stroke-width:2;" />
+            <rect x="312" y="396" width="34" height="36" fill=" none " />
+            <g transform="translate(316, 416)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｖ</text>
+            </g>
+            <line x1="308"  y1="427" x2="344" y2="427" style="stroke:#000000;stroke-width:1;" />
+            <rect x="212" y="430" width="87" height="77" fill="#FFFFFF" />
+            <rect x="215" y="434" width="35" height="36" fill=" none " />
+            <g transform="translate(219, 454)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ａ</text>
+            </g>
+            <rect x="257" y="467" width="43" height="36" fill=" none " />
+            <g transform="translate(261, 487)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">-Ａ</text>
+            </g>
+            <rect x="257" y="434" width="44" height="36" fill=" none " />
+            <g transform="translate(261, 454)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｚｅ</text>
+            </g>
+            <rect x="211" y="460" width="27" height="46" fill=" none " />
+            <g transform="translate(215, 480)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="32">z</text>
+            </g>
+            <rect x="226" y="472" width="30" height="31" fill=" none " />
+            <g transform="translate(230, 492)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">m</text>
+            </g>
+            <rect x="166" y="454" width="33" height="36" fill=" none " />
+            <g transform="translate(170, 474)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｅ</text>
+            </g>
+            <rect x="311" y="454" width="32" height="36" fill=" none " />
+            <g transform="translate(315, 474)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｆ</text>
+            </g>
+            <rect x="173" y="401" width="24" height="36" fill=" none " />
+            <g transform="translate(177, 421)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｉ</text>
+            </g>
+            <line x1="201"  y1="450" x2="201" y2="480" style="stroke:#005BB6;stroke-width:3;" />
+            <line x1="309"  y1="451" x2="309" y2="484" style="stroke:#C60026;stroke-width:3;" />
+            <line x1="168"  y1="432" x2="204" y2="432" style="stroke:#000000;stroke-width:1;" />
+            <rect x="202" y="505" width="108" height="31" fill=" none " />
+            <g transform="translate(206, 525)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">４端子回路</text>
+            </g>
+            <line x1="299"  y1="498" x2="330" y2="498" style="stroke:#000000;stroke-width:2;" />
+            <line x1="178"  y1="443" x2="210" y2="443" style="stroke:#000000;stroke-width:2;" />
+            <line x1="179"  y1="498" x2="211" y2="498" style="stroke:#000000;stroke-width:2;" />
+            <ellipse cx="335" cy="438" rx="8" ry="8" fill="#000000" />
+            <ellipse cx="335" cy="438" rx="4" ry="4" fill="#004D00" />
+            <ellipse cx="334" cy="499" rx="8" ry="8" fill="#000000" />
+            <ellipse cx="334" cy="499" rx="4" ry="4" fill="#004D00" />
+            <ellipse cx="175" cy="443" rx="8" ry="8" fill="#000000" />
+            <ellipse cx="175" cy="443" rx="4" ry="4" fill="#004D00" />
+            <ellipse cx="175" cy="499" rx="8" ry="8" fill="#000000" />
+            <ellipse cx="175" cy="499" rx="4" ry="4" fill="#004D00" />
+</g>
+</svg>

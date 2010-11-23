@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectZoom","speed":"500"
+                        <g id="groupstart">
+            <line x1="566"  y1="38" x2="566" y2="196" style="stroke:#333333;stroke-width:4.5;" />
+            <line x1="403"  y1="22" x2="403" y2="189" style="stroke:#333333;stroke-width:2;" />
+            <rect x="359" y="24" width="43" height="55" fill=" none " />
+            <g transform="translate(363, 44)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">音圧</text>
+            </g>
+            <rect x="618" y="194" width="86" height="36" fill=" none " />
+            <g transform="translate(622, 214)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">周波数</text>
+            </g>
+            <line x1="404"  y1="190" x2="697" y2="190" style="stroke:#333333;stroke-width:2;" />
+            <rect x="492" y="189" width="24" height="41" fill=" none " />
+            <g transform="translate(496, 209)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="28">f</text>
+            </g>
+            <rect x="503" y="200" width="32" height="31" fill=" none " />
+            <g transform="translate(507, 220)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">Ａ</text>
+            </g>
+            <rect x="556" y="188" width="24" height="41" fill=" none " />
+            <g transform="translate(560, 208)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="28">f</text>
+            </g>
+            <rect x="570" y="199" width="30" height="31" fill=" none " />
+            <g transform="translate(574, 219)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">Ｂ</text>
+            </g>
+            <line x1="505"  y1="38" x2="505" y2="196" style="stroke:#333333;stroke-width:4.5;" />
+</g>
+</svg>

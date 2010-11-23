@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectZoom","speed":"500"
+                        <g id="groupstart">
+            <rect x="365" y="353" width="92" height="31" fill=" none " />
+            <g transform="translate(369, 373)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">スピーカ</text>
+            </g>
+            <rect x="450" y="402" width="13" height="11" fill="#00BB00" />
+            <rect x="473" y="383" width="54" height="31" fill=" none " />
+            <g transform="translate(477, 403)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">面積</text>
+            </g>
+            <rect x="485" y="407" width="28" height="31" fill=" none " />
+            <g transform="translate(489, 427)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">Ｓ</text>
+            </g>
+            <rect x="439" y="387" width="15" height="39" fill="#0C5DFE" />
+</g>
+</svg>

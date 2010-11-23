@@ -1,0 +1,97 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <defs><symbol id="ShapeDownArrow"><path d="M 10,50 L 0,30 5,30 5,0 15,0 15,30 20,30 10,50 Z"/></symbol></defs>
+            <use xlink:href="#ShapeDownArrow" stroke=""  stroke-width="0"  fill="#F5BA5B"  transform="translate(25,240) scale(3.5,1.44)"/>
+            <rect x="82" y="247" width="166" height="31" fill=" none " />
+            <g transform="translate(86, 267)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">production&#160;tool</text>
+            </g>
+            <rect x="4" y="324" width="712" height="216" fill="#F7FFCD" />
+            <rect x="6" y="463" width="66" height="29" fill=" none " />
+            <g transform="translate(10, 483)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="18">(disc)</text>
+            </g>
+            <line x1="90"  y1="499" x2="635" y2="499" style="stroke:#6C006C;stroke-width:3;" />
+            <g  transform="rotate(270,157.5,429)">
+            <line x1="61"  y1="429" x2="254" y2="429" style="stroke:#6C006C;stroke-width:3;" />
+            </g>
+            <rect x="10" y="361" width="146" height="31" fill=" none " />
+            <g transform="translate(14, 381)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">Web&#160;browser</text>
+            </g>
+            <rect x="7" y="434" width="123" height="31" fill=" none " />
+            <g transform="translate(11, 454)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">Down&#160;road</text>
+            </g>
+            <rect x="156" y="465" width="178" height="31" fill=" none " />
+            <g transform="translate(160, 485)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">**VC++(speed)</text>
+            </g>
+            <rect x="156" y="435" width="124" height="31" fill=" none " />
+            <g transform="translate(160, 455)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">**VB(GUI)</text>
+            </g>
+            <rect x="256" y="401" width="249" height="31" fill=" none " />
+            <g transform="translate(260, 421)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">**Direct&#160;X&#160;(Game&#160;tool)</text>
+            </g>
+            <rect x="352" y="362" width="153" height="31" fill=" none " />
+            <g transform="translate(356, 382)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">**Shockwave</text>
+            </g>
+            <rect x="186" y="361" width="113" height="31" fill=" none " />
+            <g transform="translate(190, 381)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">*Ｊava-３Ｄ</text>
+            </g>
+            <rect x="415" y="503" width="218" height="31" fill=" none " />
+            <g transform="translate(419, 523)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">Application&#160;software</text>
+            </g>
+            <rect x="155" y="503" width="198" height="31" fill=" none " />
+            <g transform="translate(159, 523)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">Program&#160;language</text>
+            </g>
+            <rect x="4" y="391" width="157" height="29" fill=" none " />
+            <g transform="translate(8, 411)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="18">(main&#160;memory)</text>
+            </g>
+            <rect x="7" y="323" width="115" height="31" fill=" none " />
+            <g transform="translate(11, 343)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">-Delivery-</text>
+            </g>
+            <rect x="186" y="323" width="266" height="31" fill=" none " />
+            <g transform="translate(190, 343)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">-3D-Graphics,Animation-</text>
+            </g>
+            <g  transform="rotate(270,517.5,412)">
+            <line x1="437"  y1="412" x2="598" y2="412" style="stroke:#6C006C;stroke-width:3;" />
+            </g>
+            <rect x="518" y="451" width="151" height="31" fill=" none " />
+            <g transform="translate(522, 471)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">**PowerPoint</text>
+            </g>
+            <rect x="519" y="380" width="95" height="31" fill=" none " />
+            <g transform="translate(523, 400)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">**HTML</text>
+            </g>
+            <rect x="518" y="353" width="92" height="31" fill=" none " />
+            <g transform="translate(522, 373)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">**Flash</text>
+            </g>
+            <rect x="531" y="323" width="158" height="31" fill=" none " />
+            <g transform="translate(535, 343)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">-Presentation-</text>
+            </g>
+            <g  transform="rotate(270,351,483)">
+            <line x1="312"  y1="483" x2="390" y2="483" style="stroke:#6C006C;stroke-width:3;" />
+            </g>
+            <rect x="352" y="455" width="96" height="31" fill=" none " />
+            <g transform="translate(356, 475)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">**MAYA</text>
+            </g>
+</g>
+</svg>

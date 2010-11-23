@@ -1,0 +1,62 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectZoom","speed":"500"
+                        <g id="groupstart">
+            <line x1="432"  y1="493" x2="438" y2="493" style="stroke:#000080;stroke-width:2;" />
+            <line x1="432"  y1="437" x2="438" y2="437" style="stroke:#000080;stroke-width:2;" />
+            <line x1="432"  y1="380" x2="438" y2="380" style="stroke:#000080;stroke-width:2;" />
+            <line x1="432"  y1="325" x2="438" y2="325" style="stroke:#000080;stroke-width:2;" />
+            <line x1="432"  y1="488" x2="432" y2="493" style="stroke:#0000FF;stroke-width:2;" />
+            <line x1="554"  y1="488" x2="554" y2="493" style="stroke:#5F5F5F;stroke-width:2;" />
+            <line x1="416"  y1="437" x2="680" y2="437" style="stroke:#5F5F5F;stroke-width:2;" />
+            <line x1="416"  y1="380" x2="680" y2="380" style="stroke:#5F5F5F;stroke-width:2;" />
+            <line x1="416"  y1="325" x2="680" y2="325" style="stroke:#5F5F5F;stroke-width:2;" />
+            <line x1="416"  y1="268" x2="680" y2="268" style="stroke:#5F5F5F;stroke-width:2;" />
+            <line x1="419"  y1="268" x2="419" y2="493" style="stroke:#5F5F5F;stroke-width:2;" />
+            <line x1="416"  y1="493" x2="680" y2="493" style="stroke:#5F5F5F;stroke-width:2;" />
+            <rect x="380" y="483" width="42" height="26" fill=" none " />
+            <g transform="translate(384, 503)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="16">0%</text>
+            </g>
+            <rect x="369" y="428" width="52" height="26" fill=" none " />
+            <g transform="translate(373, 448)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="16">25%</text>
+            </g>
+            <rect x="369" y="371" width="52" height="26" fill=" none " />
+            <g transform="translate(373, 391)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="16">50%</text>
+            </g>
+            <rect x="369" y="315" width="52" height="26" fill=" none " />
+            <g transform="translate(373, 335)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="16">75%</text>
+            </g>
+            <rect x="360" y="259" width="62" height="26" fill=" none " />
+            <g transform="translate(364, 279)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="16">100%</text>
+            </g>
+            <rect x="514" y="281" width="78" height="31" fill=" none " />
+            <g transform="translate(518, 301)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">failure</text>
+            </g>
+            <rect x="332" y="254" width="38" height="266" fill=" none " />
+            <g transform="translate(336, 274)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">persuasion&#160;success&#160;rate％</text>
+            </g>
+            <rect x="430" y="493" width="117" height="29" fill=" none " />
+            <g transform="translate(434, 513)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="18">with&#160;meal</text>
+            </g>
+            <rect x="569" y="493" width="109" height="29" fill=" none " />
+            <g transform="translate(573, 513)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="18">none&#160;meal</text>
+            </g>
+            <line x1="444"  y1="268" x2="450" y2="268" style="stroke:#5F5F5F;stroke-width:2;" />
+            <line x1="506"  y1="345" x2="600" y2="381" style="stroke:#3333CC;stroke-width:3;" />
+            <rect x="503" y="390" width="118" height="31" fill=" none " />
+            <g transform="translate(507, 410)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">success</text>
+            </g>
+</g>
+</svg>

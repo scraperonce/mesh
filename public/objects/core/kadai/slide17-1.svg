@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+<rect width="100%" height="100%" x="0" y="0" fill="#FFFFFF" />
+                <!-- action=0 -->
+                        <g id="groupstart">
+            <rect x="96" y="0" width="528" height="540" fill=" none " />
+            <rect x="8" y="0" width="574" height="41" fill="#FFFFFF" />
+            <g transform="translate(12, 20)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="28">Psychology&#160;(Madonna&#160;della&#160;Seggiola)</text>
+            </g>
+            <line x1="17"  y1="46" x2="510" y2="46" style="stroke:#3333CC;stroke-width:3;" />
+            <rect x="24" y="444" width="174" height="33" fill=" none " />
+            <g transform="translate(28, 464)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="24">Raphael&#160;</text>
+            </g>
+            <ellipse cx="468" cy="292" rx="228" ry="243" fill="#FFFFFF" />
+</g>
+</svg>

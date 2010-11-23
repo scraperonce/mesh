@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+<rect width="100%" height="100%" x="0" y="0" fill="#FFFFFF" />
+                <!-- action=0 -->
+        <image x="12" y="276" width="696px" height="252px" xlink:href="./img/1_1.gif"/>
+        <image x="30" y="32" width="426px" height="196px" xlink:href="./img/1_2.gif"/>
+    <rect x="492" y="240" width="222" height="36" fill=" none " />
+    <g transform="translate(496, 260)" text-anchor="start">
+        <text x="0" y="0"  font-family="ＤＨＰ平成明朝体W7" font-size="24">ボルネオ、イバン族</text>
+    </g>
+        <image x="540" y="72" width="150px" height="140px" xlink:href="./img/1_4.gif"/>
+        <image x="587" y="119" width="60px" height="48px" xlink:href="./img/1_5.gif"/>
+</svg>
+
+

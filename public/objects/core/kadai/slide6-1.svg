@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+<rect width="100%" height="100%" x="0" y="0" fill="#FFFFFF" />
+                <!-- action=4 -->
+    <line x1="120"  y1="264" x2="120" y2="318" style="stroke:;stroke-width:0;" />
+    <line x1="102"  y1="324" x2="234" y2="324" style="stroke:;stroke-width:0;" />
+    <line x1="357"  y1="322" x2="357" y2="395" style="stroke:;stroke-width:0;" />
+    <rect x="462" y="6" width="228" height="36" fill=" none " />
+    <g transform="translate(576, 36)" text-anchor="middle">
+        <text x="0" y="0"  font-family="Verdana" font-size="24">(risky&#160;shift)</text>
+    </g>
+                        <g id="groupstart">
+            <rect x="14" y="5" width="470" height="41" fill=" none " />
+            <g transform="translate(249, 25)" text-anchor="middle">
+                <text x="0" y="0"  font-family="Verdana" font-size="28">1-4.&#160;Composition&#160;and&#160;Animation</text>
+            </g>
+            <line x1="17"  y1="46" x2="648" y2="46" style="stroke:#3333CC;stroke-width:3;" />
+</g>
+</svg>

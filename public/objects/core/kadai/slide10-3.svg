@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="299" y="150" width="413" height="274" fill=" none " />
+                <image x="299" y="150" width="413px" height="274px" xlink:href="./img/10_5.gif"/>
+            <rect x="301" y="428" width="408" height="31" fill=" none " />
+            <g transform="translate(305, 448)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">musical&#160;instruments&#160;named&#160;Didgeridoo</text>
+            </g>
+            <rect x="300" y="462" width="288" height="31" fill=" none " />
+            <g transform="translate(304, 482)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">It&#160;is&#160;made&#160;from&#160;the&#160;shrub,&#160;</text>
+            </g>
+            <rect x="293" y="488" width="387" height="31" fill=" none " />
+            <g transform="translate(297, 508)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">&#160;inside&#160;of&#160;which&#160;is&#160;bitten&#160;by&#160;termites&#160;</text>
+            </g>
+</g>
+</svg>

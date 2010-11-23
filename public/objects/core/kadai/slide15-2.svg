@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="7" y="62" width="140" height="31" fill=" none " />
+            <g transform="translate(11, 82)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">Critical&#160;band</text>
+            </g>
+            <rect x="22" y="89" width="294" height="94" fill=" none " />
+            <g transform="translate(26, 109)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">The&#160;peak&#160;&#160;level&#160;of&#160;</text>
+                <text x="0" y="24"  font-family="Verdana" font-size="20">masking&#160;and&#160;the&#160;noise&#160;</text>
+                <text x="0" y="48"  font-family="Verdana" font-size="20">bandwidth&#160;are&#160;proportional&#160;</text>
+                <text x="0" y="72"  font-family="Verdana" font-size="20">to&#160;the&#160;critical&#160;band.</text>
+            </g>
+            <rect x="5" y="191" width="265" height="31" fill=" none " />
+            <g transform="translate(9, 211)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">“Cocktail-party”&#160;effect</text>
+            </g>
+            <rect x="22" y="248" width="278" height="31" fill=" none " />
+            <g transform="translate(26, 268)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">Continuity&#160;of&#160;sentences</text>
+            </g>
+            <rect x="22" y="221" width="206" height="31" fill=" none " />
+            <g transform="translate(26, 241)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">Binaural&#160;hearing</text>
+            </g>
+</g>
+</svg>

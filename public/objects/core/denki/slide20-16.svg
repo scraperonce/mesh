@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="27" y="338" width="39" height="26" fill=" none " />
+            <g transform="translate(31, 358)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="16">ＳＡ</text>
+            </g>
+            <rect x="6" y="324" width="35" height="36" fill=" none " />
+            <g transform="translate(10, 344)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｋ</text>
+            </g>
+            <rect x="100" y="338" width="43" height="26" fill=" none " />
+            <g transform="translate(104, 358)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="16">ＭＡ</text>
+            </g>
+            <rect x="78" y="324" width="35" height="36" fill=" none " />
+            <g transform="translate(82, 344)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｋ</text>
+            </g>
+            <rect x="54" y="324" width="34" height="36" fill=" none " />
+            <g transform="translate(58, 344)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">と</text>
+            </g>
+            <rect x="135" y="327" width="256" height="36" fill=" none " />
+            <g transform="translate(139, 347)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">は相反定数で結ばれて</text>
+            </g>
+</g>
+</svg>

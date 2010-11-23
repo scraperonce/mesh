@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectZoom","speed":"500"
+                        <g id="groupstart">
+            <rect x="24" y="118" width="312" height="54" fill="#D7D7FF" />
+            <rect x="23" y="118" width="146" height="31" fill=" none " />
+            <g transform="translate(27, 138)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">スチフネス制御</text>
+            </g>
+            <rect x="23" y="142" width="114" height="31" fill=" none " />
+            <g transform="translate(27, 162)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">高抵抗出力</text>
+            </g>
+            <rect x="182" y="118" width="149" height="31" fill=" none " />
+            <g transform="translate(186, 138)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">高張力チタン箔</text>
+            </g>
+            <rect x="182" y="142" width="60" height="31" fill=" none " />
+            <g transform="translate(186, 162)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">ＦＥＴ</text>
+            </g>
+            <rect x="159" y="114" width="38" height="36" fill=" none " />
+            <g transform="translate(163, 134)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">→</text>
+            </g>
+            <rect x="159" y="140" width="38" height="36" fill=" none " />
+            <g transform="translate(163, 160)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">→</text>
+            </g>
+</g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="12" y="77" width="201" height="31" fill=" none " />
+            <g transform="translate(16, 97)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">・Light&#160;and&#160;shadow</text>
+            </g>
+            <rect x="57" y="107" width="93" height="31" fill=" none " />
+            <g transform="translate(61, 127)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">shading</text>
+            </g>
+            <rect x="12" y="143" width="139" height="31" fill=" none " />
+            <g transform="translate(16, 163)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">・Perspective</text>
+            </g>
+            <rect x="59" y="174" width="111" height="31" fill=" none " />
+            <g transform="translate(63, 194)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">rendering</text>
+            </g>
+</g>
+</svg>

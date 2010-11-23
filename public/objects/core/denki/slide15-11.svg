@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectFly","speed":"500"
+                        <g id="groupstart">
+            <rect x="629" y="459" width="75" height="31" fill=" none " />
+            <g transform="translate(633, 479)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">出力&#160;
+                 <tspan   font-family="Times New Roman" font-size="20">Ｅ</tspan></text>
+            </g>
+            <line x1="559"  y1="500" x2="642" y2="511" style="stroke:#006600;stroke-width:2;" />
+            <line x1="599"  y1="488" x2="655" y2="496" style="stroke:#006600;stroke-width:2;" />
+            <ellipse cx="656.5" cy="496" rx="8.5" ry="8" fill="#006600" />
+            <ellipse cx="656.5" cy="496" rx="4.5" ry="4" fill="#006600" />
+            <ellipse cx="637.5" cy="510" rx="8.5" ry="8" fill="#006600" />
+            <ellipse cx="637.5" cy="510" rx="4.5" ry="4" fill="#006600" />
+            <line x1="599"  y1="482" x2="599" y2="488" style="stroke:#006600;stroke-width:2;" />
+            <line x1="559"  y1="492" x2="559" y2="499" style="stroke:#006600;stroke-width:2;" />
+            <rect x="412" y="410" width="144" height="31" fill=" none " />
+            <g transform="translate(416, 430)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">インピーダンス</text>
+            </g>
+            <rect x="450" y="438" width="74" height="31" fill=" none " />
+            <g transform="translate(454, 458)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">変成器</text>
+            </g>
+</g>
+</svg>

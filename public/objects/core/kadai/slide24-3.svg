@@ -1,0 +1,66 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="78" y="246" width="270" height="210" fill="#FFFFFF" />
+            <rect x="66" y="210" width="40" height="36" fill=" none " />
+            <g transform="translate(70, 230)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="24">%</text>
+            </g>
+            <line x1="77"  y1="244" x2="77" y2="457" style="stroke:#808080;stroke-width:3;" />
+            <line x1="77"  y1="458" x2="83" y2="458" style="stroke:#808080;stroke-width:3;" />
+            <line x1="77"  y1="404" x2="83" y2="404" style="stroke:#808080;stroke-width:3;" />
+            <line x1="77"  y1="351" x2="83" y2="351" style="stroke:#000000;stroke-width:3;" />
+            <line x1="77"  y1="297" x2="83" y2="297" style="stroke:#808080;stroke-width:3;" />
+            <line x1="77"  y1="351" x2="308" y2="351" style="stroke:#808080;stroke-width:3;" />
+            <line x1="77"  y1="347" x2="77" y2="351" style="stroke:#000000;stroke-width:3;" />
+            <line x1="193"  y1="347" x2="193" y2="351" style="stroke:#808080;stroke-width:3;" />
+            <line x1="308"  y1="347" x2="308" y2="351" style="stroke:#808080;stroke-width:3;" />
+            <rect x="24" y="438" width="49" height="31" fill=" none " />
+            <g transform="translate(28, 458)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">-80</text>
+            </g>
+            <rect x="24" y="385" width="60" height="31" fill=" none " />
+            <g transform="translate(28, 405)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">-40</text>
+            </g>
+            <rect x="43" y="330" width="27" height="31" fill=" none " />
+            <g transform="translate(47, 350)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">0</text>
+            </g>
+            <rect x="34" y="275" width="40" height="31" fill=" none " />
+            <g transform="translate(38, 295)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">40</text>
+            </g>
+            <rect x="34" y="225" width="40" height="31" fill=" none " />
+            <g transform="translate(38, 245)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">80</text>
+            </g>
+            <rect x="194" y="450" width="137" height="31" fill=" none " />
+            <g transform="translate(198, 470)" text-anchor="start">
+                <text x="0" y="0" fill="#6C0000" font-family="Verdana" font-size="20">prematurely</text>
+            </g>
+            <rect x="92" y="462" width="85" height="31" fill=" none " />
+            <g transform="translate(96, 482)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">normal</text>
+            </g>
+            <rect x="159" y="262" width="107" height="31" fill=" none " />
+            <g transform="translate(163, 282)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">left&#160;chest</text>
+            </g>
+            <rect x="100" y="396" width="122" height="31" fill=" none " />
+            <g transform="translate(104, 416)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">right&#160;chest</text>
+            </g>
+            <rect x="158" y="240" width="184" height="31" fill=" none " />
+            <g transform="translate(162, 260)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">baby&#160;in&#160;mother’s</text>
+            </g>
+            <rect x="207" y="476" width="116" height="31" fill=" none " />
+            <g transform="translate(211, 496)" text-anchor="start">
+                <text x="0" y="0" fill="#6C0000" font-family="Verdana" font-size="20">born&#160;baby</text>
+            </g>
+</g>
+</svg>

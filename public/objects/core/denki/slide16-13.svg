@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="41" y="481" width="84" height="31" fill=" none " />
+            <g transform="translate(45, 501)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">エレクト</text>
+            </g>
+            <rect x="42" y="500" width="84" height="31" fill=" none " />
+            <g transform="translate(46, 520)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">レット膜</text>
+            </g>
+            <rect x="86" y="360" width="4" height="115" fill="#E301E3" />
+            <line x1="91"  y1="365" x2="91" y2="467" style="stroke:#0000CC;stroke-width:3;" />
+</g>
+</svg>

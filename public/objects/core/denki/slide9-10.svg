@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="6" y="95" width="300" height="36" fill=" none " />
+            <g transform="translate(10, 115)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ので共振周波数は増加する</text>
+            </g>
+            <line x1="157"  y1="141" x2="235" y2="141" style="stroke:#333333;stroke-width:2;" />
+            <rect x="6" y="71" width="290" height="36" fill=" none " />
+            <g transform="translate(10, 91)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">スチフネス
+                 <tspan   font-family="Times New Roman" font-size="20">&#160;</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">が</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">Δｓ&#160;</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">増加する</tspan></text>
+            </g>
+</g>
+</svg>

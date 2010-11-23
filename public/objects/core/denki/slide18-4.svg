@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="38" y="273" width="221" height="67" fill="#F4D5FF" />
+            <rect x="6" y="173" width="272" height="36" fill=" none " />
+            <g transform="translate(10, 193)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">測定系は静電変換であり</text>
+            </g>
+            <rect x="6" y="203" width="251" height="36" fill=" none " />
+            <g transform="translate(10, 223)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">出力電流はゼロだから</text>
+            </g>
+            <rect x="42" y="269" width="189" height="36" fill=" none " />
+            <g transform="translate(46, 289)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｆ&#160;&#160;&#160;
+                 <tspan   font-family="Times New Roman" font-size="24">＝</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">ｚＶ－Ａ&#160;&#160;&#160;&#160;Ｅ</tspan></text>
+            </g>
+            <rect x="56" y="277" width="27" height="31" fill=" none " />
+            <g transform="translate(60, 297)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">ｄ</text>
+            </g>
+            <rect x="172" y="273" width="32" height="36" fill=" none " />
+            <g transform="translate(176, 293)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ｎ</text>
+            </g>
+            <rect x="214" y="273" width="32" height="36" fill=" none " />
+            <g transform="translate(218, 293)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ｎ</text>
+            </g>
+            <rect x="6" y="233" width="248" height="36" fill=" none " />
+            <g transform="translate(10, 253)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">４端子回路の関係式は</text>
+            </g>
+            <rect x="42" y="305" width="216" height="36" fill=" none " />
+            <g transform="translate(46, 325)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ａ&#160;&#160;&#160;Ｖ&#160;
+                 <tspan   font-family="Times New Roman" font-size="24">＋</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">Ｙ&#160;&#160;&#160;Ｅ　</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">＝&#160;0</tspan></text>
+            </g>
+            <rect x="62" y="309" width="32" height="36" fill=" none " />
+            <g transform="translate(66, 329)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ｎ</text>
+            </g>
+            <rect x="140" y="309" width="32" height="36" fill=" none " />
+            <g transform="translate(144, 329)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ｎ</text>
+            </g>
+            <rect x="182" y="309" width="32" height="36" fill=" none " />
+            <g transform="translate(186, 329)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ｎ</text>
+            </g>
+</g>
+</svg>

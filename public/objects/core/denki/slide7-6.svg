@@ -1,0 +1,84 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectZoom","speed":"500"
+                        <g id="groupstart">
+            <rect x="75" y="362" width="558" height="108" fill="#D7D7FF" />
+            <rect x="77" y="371" width="194" height="36" fill=" none " />
+            <g transform="translate(81, 391)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">電圧感度＝20&#160;log</text>
+            </g>
+            <rect x="262" y="358" width="74" height="36" fill=" none " />
+            <g transform="translate(266, 378)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｅ&#160;&#160;&#160;
+                 <tspan   font-family="Times New Roman" font-size="24">/</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">Ｐ</tspan></text>
+            </g>
+            <line x1="270"  y1="390" x2="329" y2="390" style="stroke:#000000;stroke-width:2;" />
+            <rect x="317" y="359" width="140" height="36" fill=" none " />
+            <g transform="translate(321, 379)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">［Volt/Pa］</text>
+            </g>
+            <rect x="287" y="386" width="26" height="36" fill=" none " />
+            <g transform="translate(291, 406)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">1</text>
+            </g>
+            <line x1="338"  y1="390" x2="434" y2="390" style="stroke:#000000;stroke-width:2;" />
+            <rect x="431" y="371" width="98" height="36" fill=" none " />
+            <g transform="translate(435, 391)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">＝20&#160;log</text>
+            </g>
+            <line x1="528"  y1="390" x2="558" y2="390" style="stroke:#000000;stroke-width:2;" />
+            <rect x="529" y="386" width="32" height="36" fill=" none " />
+            <g transform="translate(533, 406)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｐ</text>
+            </g>
+            <rect x="317" y="385" width="140" height="36" fill=" none " />
+            <g transform="translate(321, 405)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">［Volt/Pa］</text>
+            </g>
+            <rect x="283" y="361" width="26" height="36" fill=" none " />
+            <g transform="translate(287, 381)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">o</text>
+            </g>
+            <rect x="522" y="359" width="33" height="36" fill=" none " />
+            <g transform="translate(526, 379)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｅ</text>
+            </g>
+            <rect x="543" y="361" width="26" height="36" fill=" none " />
+            <g transform="translate(547, 381)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">o</text>
+            </g>
+            <rect x="77" y="425" width="194" height="36" fill=" none " />
+            <g transform="translate(81, 445)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">電力感度＝20&#160;log</text>
+            </g>
+            <line x1="267"  y1="444" x2="321" y2="444" style="stroke:#000000;stroke-width:2;" />
+            <rect x="268" y="441" width="53" height="36" fill=" none " />
+            <g transform="translate(272, 461)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">P
+                 <tspan   font-family="Times New Roman" font-size="24">√</tspan></text>
+            </g>
+            <rect x="297" y="445" width="28" height="31" fill=" none " />
+            <g transform="translate(301, 465)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">Ｚ</text>
+            </g>
+            <rect x="276" y="413" width="33" height="36" fill=" none " />
+            <g transform="translate(280, 433)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｅ</text>
+            </g>
+            <rect x="297" y="415" width="26" height="36" fill=" none " />
+            <g transform="translate(301, 435)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">o</text>
+            </g>
+            <rect x="551" y="371" width="96" height="36" fill=" none " />
+            <g transform="translate(555, 391)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">［ｄＢ］</text>
+            </g>
+            <rect x="317" y="425" width="96" height="36" fill=" none " />
+            <g transform="translate(321, 445)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">［ｄＢ］</text>
+            </g>
+</g>
+</svg>

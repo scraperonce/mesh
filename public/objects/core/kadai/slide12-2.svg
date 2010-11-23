@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <ellipse cx="33.5" cy="239.5" rx="17.5" ry="17.5" fill="#FFFFFF" />
+            <ellipse cx="77.5" cy="239.5" rx="17.5" ry="17.5" fill="#FFFF00" />
+            <ellipse cx="121.5" cy="239.5" rx="17.5" ry="17.5" fill="#FF8000" />
+            <ellipse cx="166.5" cy="239.5" rx="17.5" ry="17.5" fill="#FF0000" />
+            <ellipse cx="210.5" cy="239.5" rx="17.5" ry="17.5" fill="#00FF00" />
+            <ellipse cx="254.5" cy="239.5" rx="17.5" ry="17.5" fill="#0000FF" />
+            <ellipse cx="299.5" cy="239.5" rx="17.5" ry="17.5" fill="#000000" />
+            <rect x="0" y="270" width="102" height="31" fill=" none " />
+            <g transform="translate(4, 290)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">dash&#160;out</text>
+            </g>
+            <rect x="252" y="270" width="83" height="31" fill=" none " />
+            <g transform="translate(256, 290)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">retreat</text>
+            </g>
+            <rect x="18" y="108" width="307" height="72" fill=" none " />
+            <g transform="translate(22, 128)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">　The&#160;warm&#160;color&#160;seems&#160;that&#160;it&#160;dashes&#160;out&#160;from&#160;the&#160;cold&#160;color.</text>
+            </g>
+</g>
+</svg>

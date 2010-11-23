@@ -1,0 +1,66 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="278" y="396" width="84" height="55" fill=" none " />
+            <g transform="translate(282, 416)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">Hess</text>
+                <text x="0" y="24"  font-family="Verdana" font-size="20">(1975)</text>
+            </g>
+            <rect x="40" y="455" width="49" height="31" fill=" none " />
+            <g transform="translate(44, 475)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">-10</text>
+            </g>
+            <rect x="62" y="377" width="31" height="31" fill=" none " />
+            <g transform="translate(66, 397)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">0</text>
+            </g>
+            <rect x="52" y="306" width="40" height="31" fill=" none " />
+            <g transform="translate(56, 326)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">10</text>
+            </g>
+            <rect x="52" y="235" width="40" height="31" fill=" none " />
+            <g transform="translate(56, 255)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">20</text>
+            </g>
+            <rect x="26" y="226" width="38" height="238" fill=" none " />
+            <g transform="translate(30, 246)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">change&#160;in&#160;area&#160;of&#160;pupil</text>
+            </g>
+            <rect x="54" y="194" width="36" height="31" fill=" none " />
+            <g transform="translate(58, 214)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">%</text>
+            </g>
+            <rect x="176" y="204" width="106" height="31" fill=" none " />
+            <g transform="translate(180, 224)" text-anchor="start">
+                <text x="0" y="0" fill="#A20000" font-family="Verdana" font-size="20">woman</text>
+            </g>
+            <rect x="176" y="314" width="85" height="31" fill=" none " />
+            <g transform="translate(180, 334)" text-anchor="start">
+                <text x="0" y="0" fill="#077F01" font-family="Verdana" font-size="20">man</text>
+            </g>
+            <rect x="121" y="478" width="63" height="31" fill=" none " />
+            <g transform="translate(125, 498)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">baby</text>
+            </g>
+            <line x1="93"  y1="213" x2="93" y2="471" style="stroke:#013E7B;stroke-width:2;" />
+            <line x1="112"  y1="202" x2="112" y2="462" style="stroke:#013E7B;stroke-width:2;" />
+            <line x1="244"  y1="204" x2="244" y2="462" style="stroke:#013E7B;stroke-width:2;" />
+            <line x1="369"  y1="202" x2="369" y2="462" style="stroke:#013E7B;stroke-width:2;" />
+            <line x1="93"  y1="473" x2="353" y2="473" style="stroke:#013E7B;stroke-width:2;" />
+            <line x1="226"  y1="464" x2="243" y2="474" style="stroke:#013E7B;stroke-width:2;" />
+            <line x1="351"  y1="464" x2="368" y2="474" style="stroke:#013E7B;stroke-width:2;" />
+            <line x1="94"  y1="398" x2="354" y2="398" style="stroke:#013E7B;stroke-width:2;" />
+            <line x1="227"  y1="388" x2="244" y2="398" style="stroke:#013E7B;stroke-width:2;" />
+            <line x1="352"  y1="388" x2="369" y2="398" style="stroke:#013E7B;stroke-width:2;" />
+            <line x1="92"  y1="397" x2="352" y2="397" style="stroke:#013E7B;stroke-width:2;" />
+            <line x1="226"  y1="388" x2="243" y2="398" style="stroke:#013E7B;stroke-width:2;" />
+            <line x1="351"  y1="388" x2="368" y2="398" style="stroke:#013E7B;stroke-width:2;" />
+            <rect x="266" y="478" width="64" height="31" fill=" none " />
+            <g transform="translate(270, 498)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">nude</text>
+            </g>
+</g>
+</svg>

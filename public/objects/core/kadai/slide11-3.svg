@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="12" y="194" width="198" height="196" fill=" none " />
+                <image x="12" y="194" width="198px" height="196px" xlink:href="./img/11_5.gif"/>
+            <rect x="142" y="395" width="104" height="31" fill=" none " />
+            <g transform="translate(146, 415)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">photo&#160;in&#160;</text>
+            </g>
+            <rect x="132" y="449" width="89" height="31" fill=" none " />
+            <g transform="translate(136, 469)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">enlarge</text>
+            </g>
+            <rect x="12" y="392" width="116" height="142" fill=" none " />
+                <image x="12" y="392" width="116px" height="142px" xlink:href="./img/11_8.gif"/>
+            <ellipse cx="140.5" cy="371.5" rx="15.5" ry="14.5" fill="#FFFFFF" />
+            <ellipse cx="140.5" cy="371.5" rx="9.5" ry="8.5" fill="" />
+            <g  transform="rotate(183.7098,133,405)">
+            <path d="M 133 384 L 121 426 L 145 426 Z" stroke-width="" stroke="" 
+fill="#D0D030" />
+            </g>
+            <rect x="144" y="413" width="130" height="31" fill=" none " />
+            <g transform="translate(148, 433)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">news&#160;paper</text>
+            </g>
+</g>
+</svg>

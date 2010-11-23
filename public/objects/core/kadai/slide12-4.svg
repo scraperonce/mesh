@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="512" y="494" width="211" height="29" fill=" none " />
+            <g transform="translate(516, 514)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="18">（Wertheimer’s&#160;figure)</text>
+            </g>
+            <rect x="376" y="216" width="344" height="72" fill=" none " />
+            <g transform="translate(380, 236)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">・The&#160;gray&#160;circle&#160;of&#160;background&#160;black&#160;looks&#160;brighter&#160;than&#160;the&#160;case&#160;of&#160;background&#160;white.</text>
+            </g>
+            <rect x="537.25" y="351.25" width="162.5" height="79.5" fill="#000000" />
+            <rect x="538" y="352" width="161" height="78" fill="#000000" />
+            <line x1="531"  y1="431" x2="705" y2="431" style="stroke:#5F5F5F;stroke-width:4.5;" />
+            <rect x="373" y="348" width="145" height="151" fill=" none " />
+                <image x="373" y="348" width="145px" height="151px" xlink:href="./img/12_24.gif"/>
+            <rect x="366" y="114" width="354" height="72" fill=" none " />
+            <g transform="translate(370, 134)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">・The&#160;color&#160;which&#160;exists&#160;in&#160;the&#160;complementary&#160;relation&#160;is&#160;emphasized&#160;each&#160;other.</text>
+            </g>
+</g>
+</svg>

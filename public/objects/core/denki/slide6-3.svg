@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="23" y="54" width="634" height="36" fill=" none " />
+            <g transform="translate(27, 74)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">電極間に加わる静電吸引力&#160;
+                 <tspan   font-family="Times New Roman" font-size="24">Ｆ</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">&#160;&#160;は電界強度の２乗に比例する</tspan></text>
+            </g>
+            <rect x="329" y="64" width="26" height="31" fill=" none " />
+            <g transform="translate(333, 84)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">h</text>
+            </g>
+</g>
+</svg>

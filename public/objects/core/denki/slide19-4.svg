@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="23" y="93" width="624" height="36" fill=" none " />
+            <g transform="translate(27, 113)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">スピーカとしての感度の比は気室の特性のみで決定される</text>
+            </g>
+            <rect x="23" y="64" width="648" height="36" fill=" none " />
+            <g transform="translate(27, 84)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">可逆変換器を気室に取り付けたとき、マイクとしての感度と、</text>
+            </g>
+</g>
+</svg>

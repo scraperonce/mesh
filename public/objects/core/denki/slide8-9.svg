@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectStretch","speed":"500"
+                        <g id="groupstart">
+            <g  transform="rotate(315,654.5,367.5)">
+            <ellipse cx="654.5" cy="367.5" rx="4.5" ry="6.5" fill="#FF0000" />
+            <ellipse cx="654.5" cy="367.5" rx="2.5" ry="4.5" fill="#FF0000" />
+            </g>
+            <g  transform="rotate(270,560,417)">
+            <line x1="547"  y1="417" x2="573" y2="417" style="stroke:#067A00;stroke-width:4;" />
+            </g>
+            <g  transform="rotate(270,558,426.5)">
+            <ellipse cx="558" cy="426.5" rx="6" ry="5.5" fill="#FF0000" />
+            <ellipse cx="558" cy="426.5" rx="2" ry="1.5" fill="#FF0033" />
+            </g>
+            <g  transform="rotate(270,558,421.5)">
+            <ellipse cx="558" cy="421.5" rx="6" ry="5.5" fill="#FF0000" />
+            <ellipse cx="558" cy="421.5" rx="2" ry="1.5" fill="#FF0033" />
+            </g>
+            <g  transform="rotate(270,558,417.5)">
+            <ellipse cx="558" cy="417.5" rx="6" ry="5.5" fill="#FF0000" />
+            <ellipse cx="558" cy="417.5" rx="2" ry="1.5" fill="#FF0033" />
+            </g>
+            <g  transform="rotate(270,579,417)">
+            <line x1="566"  y1="417" x2="592" y2="417" style="stroke:#067A00;stroke-width:4;" />
+            </g>
+            <g  transform="rotate(270,582,426.5)">
+            <ellipse cx="582" cy="426.5" rx="6" ry="5.5" fill="#FF0000" />
+            <ellipse cx="582" cy="426.5" rx="2" ry="1.5" fill="#FF0033" />
+            </g>
+            <g  transform="rotate(270,582,421.5)">
+            <ellipse cx="582" cy="421.5" rx="6" ry="5.5" fill="#FF0000" />
+            <ellipse cx="582" cy="421.5" rx="2" ry="1.5" fill="#FF0033" />
+            </g>
+            <g  transform="rotate(270,582,417.5)">
+            <ellipse cx="582" cy="417.5" rx="6" ry="5.5" fill="#FF0000" />
+            <ellipse cx="582" cy="417.5" rx="2" ry="1.5" fill="#FF0033" />
+            </g>
+            <g  transform="rotate(270,519.5,368)">
+            <line x1="486"  y1="326" x2="553" y2="410" style="stroke:#067A00;stroke-width:4.5;" />
+            </g>
+            <g  transform="rotate(270,620.5,368)">
+            <line x1="587"  y1="326" x2="654" y2="410" style="stroke:#067A00;stroke-width:4.5;" />
+            </g>
+</g>
+</svg>

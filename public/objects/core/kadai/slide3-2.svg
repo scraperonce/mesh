@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="18" y="100" width="684" height="158" fill=" none " />
+                <image x="18" y="100" width="684px" height="158px" xlink:href="./img/3_1.gif"/>
+            <rect x="78" y="151" width="544" height="31" fill=" none " />
+            <g transform="translate(350, 171)" text-anchor="middle">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">・The&#160;character&#160;string&#160;of&#160;several&#160;lines&#160;in&#160;a&#160;screen&#160;can</text>
+            </g>
+            <rect x="76" y="182" width="537" height="31" fill=" none " />
+            <g transform="translate(344.5, 202)" text-anchor="middle">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">&#160;be&#160;written&#160;when&#160;there&#160;is&#160;no&#160;documents&#160;distributed.</text>
+            </g>
+            <rect x="70" y="219" width="546" height="31" fill=" none " />
+            <g transform="translate(343, 239)" text-anchor="middle">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">・Each&#160;content&#160;is&#160;divided&#160;by&#160;a&#160;light&#160;background&#160;color.</text>
+            </g>
+            <rect x="28" y="109" width="332" height="30" fill="#FFFFFF" />
+            <rect x="32" y="111" width="358" height="31" fill=" none " />
+            <g transform="translate(36, 131)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">Character&#160;and&#160;composition</text>
+            </g>
+</g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="13" y="498" width="257" height="31" fill=" none " />
+            <g transform="translate(17, 518)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">drawing&#160;runs&#160;batted&#160;in</text>
+            </g>
+            <rect x="6" y="90" width="276" height="399" fill=" none " />
+                <image x="6" y="90" width="276px" height="399px" xlink:href="./img/10_4.gif"/>
+</g>
+</svg>

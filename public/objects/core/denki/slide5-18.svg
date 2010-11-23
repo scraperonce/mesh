@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <line x1="442"  y1="283" x2="623" y2="479" style="stroke:#DF0101;stroke-width:4.5;" />
+            <rect x="486" y="270" width="220" height="31" fill=" none " />
+            <g transform="translate(490, 290)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">スチフネスによる復元力</text>
+            </g>
+            <line x1="487"  y1="300" x2="509" y2="330" style="stroke:#000000;stroke-width:1;" />
+</g>
+</svg>

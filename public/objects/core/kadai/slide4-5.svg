@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="19" y="395" width="281" height="31" fill=" none " />
+            <g transform="translate(23, 415)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">「The&#160;U.S.Army&#160;can&#160;reduce</text>
+            </g>
+            <rect x="38" y="426" width="275" height="31" fill=" none " />
+            <g transform="translate(42, 446)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">the&#160;scale&#160;to&#160;85%&#160;or&#160;less.」</text>
+            </g>
+            <rect x="16" y="357" width="235" height="31" fill=" none " />
+            <g transform="translate(20, 377)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">Content&#160;of&#160;persuasion</text>
+            </g>
+</g>
+</svg>

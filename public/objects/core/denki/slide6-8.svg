@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectZoom","speed":"500"
+                        <g id="groupstart">
+            <rect x="45" y="265" width="161" height="59" fill="#FDD3DB" />
+            <rect x="47" y="261" width="153" height="36" fill=" none " />
+            <g transform="translate(51, 281)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｆ&#160;
+                 <tspan   font-family="Times New Roman" font-size="24">＝</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">ｚＶ－ＡＥ</tspan></text>
+            </g>
+            <rect x="47" y="291" width="148" height="36" fill=" none " />
+            <g transform="translate(51, 311)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｉ&#160;
+                 <tspan   font-family="Times New Roman" font-size="24">＝</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">ＡＶ</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">＋</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">ＹＥ</tspan></text>
+            </g>
+            <rect x="23" y="228" width="271" height="36" fill=" none " />
+            <g transform="translate(27, 248)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">４端子等価回路の変換式</text>
+            </g>
+</g>
+</svg>

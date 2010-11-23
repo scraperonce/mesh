@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="6" y="52" width="714" height="72" fill=" none " />
+            <g transform="translate(10, 72)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">Seurat&#160;believed&#160;that&#160;the&#160;form&#160;of&#160;painting,&#160;known&#160;as&#160;pointillism,&#160;would&#160;make&#160;the&#160;colors&#160;more&#160;brilliant&#160;and&#160;powerful&#160;than&#160;the&#160;standard&#160;brush&#160;strokes.</text>
+            </g>
+            <rect x="6" y="130" width="708" height="50" fill=" none " />
+            <g transform="translate(10, 150)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">This&#160;method&#160;was&#160;used&#160;for&#160;the&#160;halftone&#160;dot&#160;of&#160;the&#160;printing&#160;technique,&#160;and&#160;succeeded&#160;in&#160;the&#160;age&#160;of&#160;a&#160;large&#160;amount&#160;of&#160;print.</text>
+            </g>
+</g>
+</svg>

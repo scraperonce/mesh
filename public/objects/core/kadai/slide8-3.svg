@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="396" y="62" width="320" height="218" fill=" none " />
+                <image x="396" y="62" width="320px" height="218px" xlink:href="./img/8_4.gif"/>
+            <defs><symbol id="ShapeRightArrow"><path d="M 50,10 L 35,20 35,15 0,15 0,5 35,5 35,0 50,10 Z"/></symbol></defs>
+            <use xlink:href="#ShapeRightArrow" stroke=""  stroke-width="0"  fill="#00CC99"  transform="translate(336,204) scale(1.2,2.4)"/>
+</g>
+</svg>

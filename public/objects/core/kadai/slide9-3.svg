@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="24" y="60" width="646" height="36" fill=" none " />
+            <g transform="translate(28, 80)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="24">AVI&#160;file&#160;&#160;&#160;&#160;&#160;：&#160;good&#160;image&#160;quality&#160;,&#160;large&#160;memory&#160;size</text>
+            </g>
+            <rect x="21" y="92" width="663" height="36" fill=" none " />
+            <g transform="translate(25, 112)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="24">MPEG&#160;file&#160;&#160;：&#160;&#160;nonreciprocal&#160;compression</text>
+            </g>
+            <rect x="78" y="137" width="639" height="55" fill=" none " />
+            <g transform="translate(82, 157)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">It&#160;is&#160;compressed&#160;to&#160;a&#160;high&#160;degree&#160;in&#160;order&#160;of&#160;MPEG2&#160;,&#160;MPG1,&#160;and&#160;MPG4</text>
+            </g>
+</g>
+</svg>

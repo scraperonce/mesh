@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="39" y="162" width="381" height="32" fill=" none " />
+            <g transform="translate(43, 182)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="24">Responsibility&#160;decentralization</text>
+            </g>
+            <rect x="39" y="194" width="434" height="32" fill=" none " />
+            <g transform="translate(43, 214)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="24">Wish&#160;that&#160;hope&#160;of&#160;social&#160;admission</text>
+            </g>
+            <rect x="517" y="158" width="106" height="36" fill=" none " />
+            <g transform="translate(521, 178)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="24">evasion</text>
+            </g>
+            <rect x="517" y="190" width="186" height="36" fill=" none " />
+            <g transform="translate(521, 210)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="24">self-insistence</text>
+            </g>
+            <defs><symbol id="ShapeLeftArrow"><path d="M 0,10 L 10,0 10,5 50,5 50,15 10,15 10,20 0,10 Z"/></symbol></defs>
+            <use xlink:href="#ShapeLeftArrow" stroke=""  stroke-width="0"  fill="#FFFFFF"  transform="translate(481,160) scale(0.6,3.25)"/>
+</g>
+</svg>

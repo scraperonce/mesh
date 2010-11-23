@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="511" y="249" width="160" height="31" fill=" none " />
+            <g transform="translate(515, 269)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">バイアス電圧&#160;
+                 <tspan   font-family="Times New Roman" font-size="20">Ｅ</tspan>
+                 <tspan   font-family="Times New Roman" font-size="18">ｏ</tspan></text>
+            </g>
+            <line x1="512"  y1="234" x2="545" y2="234" style="stroke:#601200;stroke-width:3;" />
+            <line x1="550"  y1="143" x2="655" y2="143" style="stroke:#601200;stroke-width:3;" />
+            <line x1="570"  y1="234" x2="655" y2="234" style="stroke:#601200;stroke-width:3;" />
+            <line x1="512"  y1="199" x2="512" y2="233" style="stroke:#601200;stroke-width:3;" />
+            <rect x="635" y="147" width="75" height="31" fill=" none " />
+            <g transform="translate(639, 167)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">出力&#160;
+                 <tspan   font-family="Times New Roman" font-size="20">Ｅ</tspan></text>
+            </g>
+            <ellipse cx="653" cy="143.5" rx="8" ry="8.5" fill="#601200" />
+            <ellipse cx="653" cy="143.5" rx="4" ry="4.5" fill="#601200" />
+            <ellipse cx="653" cy="232" rx="8" ry="8" fill="#601200" />
+            <ellipse cx="653" cy="232" rx="4" ry="4" fill="#601200" />
+            <line x1="545"  y1="219" x2="545" y2="249" style="stroke:#601200;stroke-width:2;" />
+            <line x1="553"  y1="228" x2="553" y2="240" style="stroke:#601200;stroke-width:8;" />
+            <line x1="561"  y1="219" x2="561" y2="249" style="stroke:#601200;stroke-width:2;" />
+            <line x1="568"  y1="228" x2="568" y2="240" style="stroke:#601200;stroke-width:8;" />
+            <rect x="611" y="187" width="107" height="31" fill=" none " />
+            <g transform="translate(615, 207)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">高抵抗&#160;
+                 <tspan   font-family="Times New Roman" font-size="20">Ｒ</tspan>
+                 <tspan   font-family="Times New Roman" font-size="18">ｏ</tspan></text>
+            </g>
+            <ellipse cx="603.5" cy="143.5" rx="4" ry="4" fill="#601200" />
+            <ellipse cx="603.5" cy="143.5" rx="2.5" ry="2.5" fill="#601200" />
+            <ellipse cx="603.5" cy="233.5" rx="4" ry="4" fill="#601200" />
+            <ellipse cx="603.5" cy="233.5" rx="2.5" ry="2.5" fill="#601200" />
+</g>
+</svg>

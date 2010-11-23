@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <line x1="494"  y1="81" x2="494" y2="122" style="stroke:#C60026;stroke-width:4;" />
+            <rect x="498" y="90" width="116" height="31" fill=" none " />
+            <g transform="translate(502, 110)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">振動速度&#160;
+                 <tspan   font-family="Times New Roman" font-size="20">Ｖ</tspan></text>
+            </g>
+            <rect x="505" y="64" width="74" height="31" fill=" none " />
+            <g transform="translate(509, 84)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">外力&#160;
+                 <tspan   font-family="Times New Roman" font-size="20">Ｆ</tspan></text>
+            </g>
+</g>
+</svg>

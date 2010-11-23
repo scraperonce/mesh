@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="533" y="300" width="171" height="217" fill="#FFF9C3"  rx="16"  ry="16" />
+            <line x1="522"  y1="339" x2="543" y2="339" style="stroke:#077091;stroke-width:4.5;" />
+            <line x1="522"  y1="474" x2="543" y2="474" style="stroke:#077091;stroke-width:4.5;" />
+            <rect x="557" y="461" width="54" height="31" fill=" none " />
+            <g transform="translate(561, 481)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">気室</text>
+            </g>
+            <rect x="623" y="335" width="77" height="31" fill=" none " />
+            <g transform="translate(627, 355)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">体積&#160;
+                 <tspan   font-family="Times New Roman" font-size="20">Ｑ</tspan></text>
+            </g>
+            <rect x="551" y="304" width="142" height="41" fill=" none " />
+            <g transform="translate(555, 324)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">体積弾性率
+                 <tspan   font-family="Times New Roman" font-size="28">κ</tspan></text>
+            </g>
+</g>
+</svg>

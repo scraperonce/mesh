@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="0" y="338" width="402" height="36" fill=" none " />
+            <g transform="translate(4, 358)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">スチフネスが付加されたと等価になる</text>
+            </g>
+            <rect x="0" y="307" width="175" height="36" fill=" none " />
+            <g transform="translate(4, 327)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">よって、気室は</text>
+            </g>
+            <rect x="215" y="301" width="47" height="46" fill=" none " />
+            <g transform="translate(219, 321)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="32">κ</text>
+            </g>
+            <rect x="239" y="308" width="30" height="36" fill=" none " />
+            <g transform="translate(243, 328)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｓ</text>
+            </g>
+            <rect x="262" y="302" width="26" height="36" fill=" none " />
+            <g transform="translate(266, 322)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">2</text>
+            </g>
+            <rect x="278" y="307" width="22" height="41" fill=" none " />
+            <g transform="translate(282, 327)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="28">/</text>
+            </g>
+            <rect x="289" y="308" width="35" height="36" fill=" none " />
+            <g transform="translate(293, 328)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｑ</text>
+            </g>
+            <rect x="163" y="301" width="29" height="41" fill=" none " />
+            <g transform="translate(167, 321)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="28">ｓ</text>
+            </g>
+            <rect x="180" y="313" width="26" height="31" fill=" none " />
+            <g transform="translate(184, 333)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">ｃ</text>
+            </g>
+            <rect x="198" y="311" width="37" height="36" fill=" none " />
+            <g transform="translate(202, 331)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">＝</text>
+            </g>
+            <rect x="320" y="307" width="76" height="36" fill=" none " />
+            <g transform="translate(324, 327)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">という</text>
+            </g>
+            <rect x="0" y="396" width="309" height="36" fill=" none " />
+            <g transform="translate(4, 416)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">コンデンサマイクの場合には</text>
+            </g>
+            <rect x="0" y="368" width="399" height="36" fill=" none " />
+            <g transform="translate(4, 388)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">これを考慮して４端子回路方程式から</text>
+            </g>
+</g>
+</svg>

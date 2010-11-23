@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="18" y="274" width="684" height="116" fill="#F0FAE6" />
+            <rect x="72" y="317" width="503" height="31" fill=" none " />
+            <g transform="translate(323.5, 337)" text-anchor="middle">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">・The&#160;thought&#160;stops&#160;when&#160;eyes&#160;chase&#160;the&#160;figure.&#160;</text>
+            </g>
+            <rect x="70" y="350" width="528" height="31" fill=" none " />
+            <g transform="translate(334, 370)" text-anchor="middle">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">・Few&#160;operation&#160;would&#160;be&#160;acceptable&#160;like&#160;as&#160;wiping.</text>
+            </g>
+            <rect x="28" y="281" width="158" height="30" fill="#FFFFFF" />
+            <rect x="31" y="282" width="171" height="31" fill=" none " />
+            <g transform="translate(35, 302)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">Animation</text>
+            </g>
+</g>
+</svg>

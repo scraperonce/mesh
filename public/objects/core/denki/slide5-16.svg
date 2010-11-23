@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="59" y="303" width="153" height="31" fill=" none " />
+            <g transform="translate(63, 323)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="18">&#160;
+                 <tspan   font-family="Times New Roman" font-size="20">永久磁石による</tspan></text>
+            </g>
+            <line x1="255"  y1="298" x2="255" y2="350" style="stroke:#000000;stroke-width:1;" />
+            <line x1="254"  y1="302" x2="305" y2="302" style="stroke:#000000;stroke-width:1;" />
+            <line x1="194"  y1="302" x2="226" y2="302" style="stroke:#000000;stroke-width:1;" />
+            <rect x="220" y="286" width="40" height="31" fill=" none " />
+            <g transform="translate(224, 306)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">Ｇ
+                 <tspan   font-family="Times New Roman" font-size="14">ｏ</tspan></text>
+            </g>
+            <rect x="63" y="322" width="135" height="31" fill=" none " />
+            <g transform="translate(67, 342)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">振動板の変位</text>
+            </g>
+            <line x1="198"  y1="339" x2="246" y2="375" style="stroke:#000000;stroke-width:1;" />
+</g>
+</svg>

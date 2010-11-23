@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="38" y="225" width="173" height="41" fill="#FDCDFF" />
+            <rect x="38" y="231" width="46" height="31" fill=" none " />
+            <g transform="translate(42, 251)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">Δ
+                 <tspan   font-family="Times New Roman" font-size="18">Ｓ</tspan></text>
+            </g>
+            <rect x="72" y="227" width="95" height="36" fill=" none " />
+            <g transform="translate(76, 247)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">＝ρ
+                 <tspan   font-family="Times New Roman" font-size="24">ｃ&#160;&#160;Ｓ</tspan></text>
+            </g>
+            <rect x="155" y="228" width="33" height="36" fill=" none " />
+            <g transform="translate(159, 248)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">&#160;&#160;/</text>
+            </g>
+            <rect x="174" y="230" width="32" height="31" fill=" none " />
+            <g transform="translate(178, 250)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">Ｑ</text>
+            </g>
+            <rect x="129" y="226" width="24" height="29" fill=" none " />
+            <g transform="translate(133, 246)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="18">2</text>
+            </g>
+            <rect x="157" y="226" width="24" height="29" fill=" none " />
+            <g transform="translate(161, 246)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="18">2</text>
+            </g>
+</g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <ellipse cx="492" cy="435" rx="108" ry="27" fill="#657BEB" />
+            <ellipse cx="371.5" cy="333" rx="115.5" ry="34" fill="#FFFFFF" />
+            <rect x="269" y="216" width="74" height="84" fill=" none " />
+                <image x="269" y="216" width="74px" height="84px" xlink:href="./img/2_15.gif"/>
+            <rect x="56" y="150" width="214" height="53" fill=" none " />
+                <image x="56" y="150" width="214px" height="53px" xlink:href="./img/2_16.gif"/>
+            <rect x="68" y="165" width="183" height="26" fill=" none " />
+            <g transform="translate(159.5, 185)" text-anchor="middle">
+                <text x="0" y="0"  font-family="ＭＳ Ｐゴシック" font-size="36">Understanding</text>
+            </g>
+            <rect x="289" y="321" width="166" height="26" fill=" none " />
+            <g transform="translate(372, 341)" text-anchor="middle">
+                <text x="0" y="0"  font-family="ＭＳ Ｐゴシック" font-size="36">presentation</text>
+            </g>
+</g>
+</svg>

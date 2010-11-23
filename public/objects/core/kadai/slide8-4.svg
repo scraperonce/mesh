@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="6" y="74" width="396" height="55" fill=" none " />
+            <g transform="translate(10, 94)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">Ayers&#160;Rock&#160;is&#160;a&#160;mountain&#160;of&#160;the&#160;monolith&#160;of&#160;the&#160;altitude&#160;350&#160;meters.&#160;</text>
+            </g>
+            <rect x="6" y="191" width="351" height="31" fill=" none " />
+            <g transform="translate(10, 211)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">It&#160;is&#160;called&#160;the&#160;navel&#160;of&#160;the&#160;earth.</text>
+            </g>
+            <rect x="6" y="220" width="242" height="31" fill=" none " />
+            <g transform="translate(10, 240)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">It&#160;is&#160;indigenous&#160;people</text>
+            </g>
+            <rect x="6" y="128" width="396" height="55" fill=" none " />
+            <g transform="translate(10, 148)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">Ten&#160;times&#160;the&#160;capacity&#160;have&#160;been&#160;buried&#160;under&#160;the&#160;soil.</text>
+            </g>
+            <rect x="8" y="251" width="283" height="31" fill=" none " />
+            <g transform="translate(12, 271)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">Aborigine's&#160;sacred&#160;ground.</text>
+            </g>
+</g>
+</svg>

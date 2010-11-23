@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+    <rect x="-4" y="69" width="718" height="36" fill=" none " />
+    <g transform="translate(355, 89)" text-anchor="middle">
+        <text x="0" y="0"  font-family="Verdana" font-size="24">・Presentation&#160;is&#160;a&#160;mere&#160;assistance&#160;method&#160;to&#160;understand.</text>
+    </g>
+</svg>

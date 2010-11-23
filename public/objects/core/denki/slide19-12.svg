@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <line x1="429"  y1="407" x2="521" y2="407" style="stroke:#CC0000;stroke-width:3;" />
+            <ellipse cx="473.5" cy="406" rx="8.5" ry="8" fill="#CC0000" />
+            <ellipse cx="473.5" cy="406" rx="4.5" ry="4" fill="#CC0000" />
+            <line x1="429"  y1="463" x2="509" y2="463" style="stroke:#CC0000;stroke-width:3;" />
+            <line x1="429"  y1="406" x2="429" y2="462" style="stroke:#CC0000;stroke-width:3;" />
+            <ellipse cx="473.5" cy="463.5" rx="8.5" ry="8.5" fill="#CC0000" />
+            <ellipse cx="473.5" cy="463.5" rx="4.5" ry="4.5" fill="#CC0000" />
+            <ellipse cx="429" cy="435" rx="21" ry="21" fill="#CC0000" />
+            <ellipse cx="429" cy="435" rx="17" ry="17" fill="#FFFFFF" />
+            <rect x="412" y="419" width="34" height="31" fill=" none " />
+            <g transform="translate(416, 439)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">～</text>
+            </g>
+            <rect x="446" y="418" width="33" height="36" fill=" none " />
+            <g transform="translate(450, 438)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｅ</text>
+            </g>
+            <rect x="469" y="425" width="31" height="31" fill=" none " />
+            <g transform="translate(473, 445)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">in</text>
+            </g>
+            <rect x="446" y="466" width="33" height="36" fill=" none " />
+            <g transform="translate(450, 486)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｅ</text>
+            </g>
+            <rect x="468" y="480" width="50" height="24" fill=" none " />
+            <g transform="translate(472, 500)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="14">ＯＵＴ</text>
+            </g>
+</g>
+</svg>

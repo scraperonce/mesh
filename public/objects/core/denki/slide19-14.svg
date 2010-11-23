@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="618" y="219" width="21" height="31" fill=" none " />
+            <g transform="translate(622, 239)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">ｊ</text>
+            </g>
+            <rect x="630" y="219" width="34" height="31" fill=" none " />
+            <g transform="translate(634, 239)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">ω</text>
+            </g>
+            <rect x="650" y="219" width="29" height="31" fill=" none " />
+            <g transform="translate(654, 239)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">Ｃ</text>
+            </g>
+            <rect x="540" y="216" width="155" height="31" fill=" none " />
+            <g transform="translate(544, 236)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">(&#160;Ｚ&#160;＝&#160;１&#160;/　　　)</text>
+            </g>
+            <rect x="462" y="192" width="232" height="31" fill=" none " />
+            <g transform="translate(466, 212)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">コンデンサマイクロフォン</text>
+            </g>
+</g>
+</svg>

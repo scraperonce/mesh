@@ -1,0 +1,86 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="296" y="287" width="130" height="31" fill=" none " />
+            <g transform="translate(300, 307)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">adven-</text>
+            </g>
+            <rect x="296" y="409" width="160" height="31" fill=" none " />
+            <g transform="translate(300, 429)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">conser-</text>
+            </g>
+            <rect x="360" y="277" width="49" height="29" fill=" none " />
+            <g transform="translate(364, 297)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="18">45</text>
+            </g>
+            <rect x="360" y="340" width="55" height="29" fill=" none " />
+            <g transform="translate(364, 360)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="18">50</text>
+            </g>
+            <rect x="360" y="398" width="55" height="29" fill=" none " />
+            <g transform="translate(364, 418)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="18">55</text>
+            </g>
+            <rect x="360" y="456" width="49" height="29" fill=" none " />
+            <g transform="translate(364, 476)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="18">60</text>
+            </g>
+            <rect x="355" y="475" width="78" height="31" fill=" none " />
+            <g transform="translate(359, 495)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">before</text>
+            </g>
+            <rect x="462" y="475" width="87" height="31" fill=" none " />
+            <g transform="translate(466, 495)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">discuss</text>
+            </g>
+            <rect x="563" y="475" width="62" height="31" fill=" none " />
+            <g transform="translate(567, 495)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">after</text>
+            </g>
+            <rect x="667" y="475" width="42" height="31" fill=" none " />
+            <g transform="translate(671, 495)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">far</text>
+            </g>
+            <line x1="398"  y1="292" x2="687" y2="292" style="stroke:#4D4D4D;stroke-width:2;" />
+            <line x1="398"  y1="351" x2="687" y2="351" style="stroke:#4D4D4D;stroke-width:2;" />
+            <line x1="398"  y1="410" x2="687" y2="410" style="stroke:#4D4D4D;stroke-width:2;" />
+            <line x1="494"  y1="292" x2="494" y2="469" style="stroke:#4D4D4D;stroke-width:2;" />
+            <line x1="590"  y1="292" x2="590" y2="469" style="stroke:#4D4D4D;stroke-width:2;" />
+            <line x1="687"  y1="292" x2="687" y2="469" style="stroke:#4D4D4D;stroke-width:2;" />
+            <line x1="392"  y1="292" x2="402" y2="292" style="stroke:#4D4D4D;stroke-width:2;" />
+            <line x1="392"  y1="351" x2="402" y2="351" style="stroke:#4D4D4D;stroke-width:2;" />
+            <line x1="392"  y1="410" x2="402" y2="410" style="stroke:#4D4D4D;stroke-width:2;" />
+            <line x1="392"  y1="468" x2="402" y2="468" style="stroke:#4D4D4D;stroke-width:2;" />
+            <line x1="398"  y1="468" x2="687" y2="468" style="stroke:#4D4D4D;stroke-width:2;" />
+            <line x1="398"  y1="459" x2="398" y2="478" style="stroke:#4D4D4D;stroke-width:2;" />
+            <line x1="494"  y1="459" x2="494" y2="478" style="stroke:#4D4D4D;stroke-width:2;" />
+            <line x1="590"  y1="459" x2="590" y2="478" style="stroke:#4D4D4D;stroke-width:2;" />
+            <line x1="687"  y1="459" x2="687" y2="478" style="stroke:#4D4D4D;stroke-width:2;" />
+            <line x1="326"  y1="339" x2="326" y2="411" style="stroke:#4D4D4D;stroke-width:2.25;" />
+            <rect x="505" y="420" width="166" height="29" fill="#FFFFFF" />
+            <g transform="translate(509, 440)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">Non-discussion</text>
+            </g>
+            <ellipse cx="688.5" cy="320.5" rx="7.5" ry="8.5" fill="#A50021" />
+            <ellipse cx="592" cy="338" rx="8" ry="8" fill="#A50021" />
+            <ellipse cx="496" cy="352" rx="8" ry="8" fill="#A50021" />
+            <ellipse cx="399.5" cy="446.5" rx="7.5" ry="8.5" fill="#A50021" />
+            <ellipse cx="400" cy="457" rx="8" ry="8" fill="#009900" />
+            <ellipse cx="688" cy="469" rx="8" ry="8" fill="#009900" />
+            <rect x="406" y="295" width="195" height="29" fill="#FFFFFF" />
+            <g transform="translate(410, 315)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">discussion&#160;group</text>
+            </g>
+            <rect x="297" y="430" width="160" height="31" fill=" none " />
+            <g transform="translate(301, 450)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">vatism</text>
+            </g>
+            <rect x="295" y="306" width="130" height="31" fill=" none " />
+            <g transform="translate(299, 326)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">ture</text>
+            </g>
+</g>
+</svg>

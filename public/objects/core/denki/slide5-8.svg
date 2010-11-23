@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="274" y="72" width="452" height="36" fill=" none " />
+            <g transform="translate(278, 92)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">直流バイアス
+                 <tspan   font-family="Times New Roman" font-size="24">&#160;Φ&#160;&#160;&#160;&#160;</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">を加えて歪みを押さえる</tspan></text>
+            </g>
+            <rect x="428" y="59" width="26" height="36" fill=" none " />
+            <g transform="translate(432, 79)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">o</text>
+            </g>
+            <rect x="274" y="42" width="434" height="36" fill=" none " />
+            <g transform="translate(278, 62)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">振動板の駆動力は磁束の２乗に比例する</text>
+            </g>
+</g>
+</svg>

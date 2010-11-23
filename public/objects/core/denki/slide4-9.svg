@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="451" y="35" width="39" height="41" fill=" none " />
+            <g transform="translate(455, 55)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="28">z
+                 <tspan   font-family="Times New Roman" font-size="18">m</tspan></text>
+            </g>
+            <line x1="470"  y1="72" x2="470" y2="105" style="stroke:#006600;stroke-width:2;" />
+            <rect x="480" y="41" width="184" height="31" fill=" none " />
+            <g transform="translate(484, 61)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">機械インピーダンス</text>
+            </g>
+</g>
+</svg>

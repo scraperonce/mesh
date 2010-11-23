@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="48" y="90" width="96" height="31" fill=" none " />
+            <g transform="translate(52, 110)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">Ｐ
+                 <tspan   font-family="Times New Roman" font-size="20">&#160;&#160;＝</tspan>
+                 <tspan   font-family="Times New Roman" font-size="20">Ｐ</tspan>
+                 <tspan   font-family="Times New Roman" font-size="20">&#160;&#160;＋</tspan></text>
+            </g>
+            <rect x="60" y="101" width="24" height="31" fill=" none " />
+            <g transform="translate(64, 121)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">2</text>
+            </g>
+            <rect x="102" y="100" width="24" height="31" fill=" none " />
+            <g transform="translate(106, 120)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">1</text>
+            </g>
+            <rect x="177" y="88" width="134" height="36" fill=" none " />
+            <g transform="translate(181, 108)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">Δ
+                 <tspan   font-family="Times New Roman" font-size="24">l&#160;</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">ｃｏｓθ</tspan></text>
+            </g>
+            <line x1="145"  y1="106" x2="181" y2="106" style="stroke:#000000;stroke-width:2;" />
+            <rect x="156" y="99" width="31" height="36" fill=" none " />
+            <g transform="translate(160, 119)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ｘ</text>
+            </g>
+            <rect x="138" y="103" width="34" height="31" fill=" none " />
+            <g transform="translate(142, 123)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">∂</text>
+            </g>
+            <rect x="138" y="79" width="34" height="31" fill=" none " />
+            <g transform="translate(142, 99)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">∂</text>
+            </g>
+            <rect x="155" y="79" width="29" height="31" fill=" none " />
+            <g transform="translate(159, 99)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">Ｐ</text>
+            </g>
+            <rect x="6" y="51" width="419" height="36" fill=" none " />
+            <g transform="translate(10, 71)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">音波が振動板の裏側に回り込む距離差</text>
+            </g>
+            <rect x="410" y="49" width="52" height="41" fill=" none " />
+            <g transform="translate(414, 69)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Δ
+                 <tspan   font-family="Times New Roman" font-size="28">l&#160;</tspan></text>
+            </g>
+</g>
+</svg>

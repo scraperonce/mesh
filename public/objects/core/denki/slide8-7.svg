@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectZoom","speed":"500"
+                        <g id="groupstart">
+            <rect x="471" y="499" width="204" height="36" fill=" none " />
+            <g transform="translate(573, 529)" text-anchor="middle">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">スピーカの原理図</text>
+            </g>
+            <g  transform="rotate(270,535.5,403)">
+            <rect x="530.25" y="400.25" width="10.5" height="5.5" fill="#000000" />
+            <rect x="531" y="401" width="9" height="4" fill="#000000" />
+            </g>
+            <g  transform="rotate(270,603.5,403)">
+            <rect x="598.25" y="400.25" width="10.5" height="5.5" fill="#000000" />
+            <rect x="599" y="401" width="9" height="4" fill="#000000" />
+            </g>
+            <g  transform="rotate(270,541,444.5)">
+            <rect x="533" y="436" width="16" height="17" fill="#F6F000" />
+            </g>
+            <g  transform="rotate(270,599,444.5)">
+            <rect x="591" y="436" width="16" height="17" fill="#F6F000" />
+            </g>
+            <g  transform="rotate(333,610.5,375.5)">
+            <ellipse cx="610.5" cy="375.5" rx="4.5" ry="2.5" fill="#FFCC99" />
+            <ellipse cx="610.5" cy="375.5" rx="2.5" ry="0.5" fill="#FFCC99" />
+            </g>
+</g>
+</svg>

@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectZoom","speed":"500"
+                        <g id="groupstart">
+            <rect x="132" y="186" width="38" height="36" fill=" none " />
+            <g transform="translate(136, 206)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ｍ</text>
+            </g>
+            <rect x="157" y="192" width="27" height="36" fill=" none " />
+            <g transform="translate(161, 212)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ｓ</text>
+            </g>
+            <rect x="174" y="186" width="134" height="36" fill=" none " />
+            <g transform="translate(178, 206)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">：付加質量</text>
+            </g>
+            <rect x="38" y="132" width="209" height="53" fill="#D9DCFD" />
+            <rect x="48" y="139" width="24" height="41" fill=" none " />
+            <g transform="translate(52, 159)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="28">f</text>
+            </g>
+            <rect x="57" y="150" width="26" height="36" fill=" none " />
+            <g transform="translate(61, 170)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">o</text>
+            </g>
+            <rect x="74" y="143" width="37" height="36" fill=" none " />
+            <g transform="translate(78, 163)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">＝</text>
+            </g>
+            <rect x="101" y="157" width="27" height="31" fill=" none " />
+            <g transform="translate(105, 177)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">２</text>
+            </g>
+            <rect x="113" y="153" width="38" height="36" fill=" none " />
+            <g transform="translate(117, 173)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">π</text>
+            </g>
+            <line x1="105"  y1="161" x2="141" y2="161" style="stroke:#333333;stroke-width:2;" />
+            <rect x="112" y="132" width="26" height="36" fill=" none " />
+            <g transform="translate(116, 152)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">1</text>
+            </g>
+            <rect x="150" y="152" width="77" height="36" fill=" none " />
+            <g transform="translate(154, 172)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ｍ
+                 <tspan   font-family="Times New Roman" font-size="20">＋</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">ｍ</tspan></text>
+            </g>
+            <rect x="211" y="156" width="27" height="36" fill=" none " />
+            <g transform="translate(215, 176)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ｓ</text>
+            </g>
+            <rect x="158" y="132" width="80" height="36" fill=" none " />
+            <g transform="translate(162, 152)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ｓ&#160;
+                 <tspan   font-family="Times New Roman" font-size="20">＋</tspan>
+                 <tspan   font-family="Times New Roman" font-size="20">Δ</tspan>
+                 <tspan   font-family="Times New Roman" font-size="18">Ｓ</tspan></text>
+            </g>
+            <line x1="163"  y1="162" x2="229" y2="162" style="stroke:#333333;stroke-width:2;" />
+            <line x1="150"  y1="141" x2="158" y2="180" style="stroke:#333333;stroke-width:2;" />
+</g>
+</svg>

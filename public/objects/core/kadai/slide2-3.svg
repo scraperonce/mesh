@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectStretch","speed":"500"
+                        <g id="groupstart">
+            <g  transform="rotate(12.538,367,328.5)">
+            <rect x="362" y="138" width="10" height="381" fill="#F0C4D3" />
+            </g>
+            <rect x="404" y="143" width="142" height="12" fill="#F0C4D3" />
+            <rect x="188" y="508" width="142" height="12" fill="#94264B" />
+</g>
+</svg>

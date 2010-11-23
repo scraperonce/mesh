@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+<rect width="100%" height="100%" x="0" y="0" fill="#FFFFFF" />
+                <!-- action=2 -->
+    <rect x="2" y="2" width="311" height="46" fill=" none " />
+    <g transform="translate(6, 22)" text-anchor="start">
+        <text x="0" y="0"  font-family="ＤＨＰ平成明朝体W7" font-size="32">実際のマイクロフォン</text>
+    </g>
+    <rect x="0" y="485" width="255" height="31" fill=" none " />
+    <g transform="translate(4, 505)" text-anchor="start">
+        <text x="0" y="0"  font-family="Times New Roman" font-size="20">３点吊りコンサートホール用</text>
+    </g>
+        <image x="9" y="158" width="227px" height="321px" xlink:href="./img/17_8.gif"/>
+    <rect x="0" y="509" width="220" height="31" fill=" none " />
+    <g transform="translate(4, 529)" text-anchor="start">
+        <text x="0" y="0"  font-family="Times New Roman" font-size="20">高帯域コンデンサマイク</text>
+    </g>
+</svg>

@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="48" y="498" width="62" height="36" fill=" none " />
+            <g transform="translate(52, 518)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｙ&#160;
+                 <tspan   font-family="Times New Roman" font-size="24">＝</tspan></text>
+            </g>
+            <rect x="221" y="482" width="60" height="36" fill=" none " />
+            <g transform="translate(225, 502)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ε&#160;
+                 <tspan   font-family="Times New Roman" font-size="24">Ｓ</tspan></text>
+            </g>
+            <rect x="238" y="509" width="29" height="36" fill=" none " />
+            <g transform="translate(242, 529)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ｄ</text>
+            </g>
+            <line x1="234"  y1="514" x2="276" y2="514" style="stroke:#000000;stroke-width:2;" />
+            <rect x="239" y="491" width="26" height="29" fill=" none " />
+            <g transform="translate(243, 511)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="18">ｏ</text>
+            </g>
+            <rect x="256" y="515" width="26" height="29" fill=" none " />
+            <g transform="translate(260, 535)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="18">ｏ</text>
+            </g>
+            <rect x="100" y="495" width="63" height="36" fill=" none " />
+            <g transform="translate(104, 515)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">j
+                 <tspan   font-family="Times New Roman" font-size="24">ω</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">Ｃ</tspan></text>
+            </g>
+            <rect x="152" y="503" width="26" height="29" fill=" none " />
+            <g transform="translate(156, 523)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="18">ｏ</text>
+            </g>
+            <rect x="168" y="495" width="37" height="36" fill=" none " />
+            <g transform="translate(172, 515)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">＝</text>
+            </g>
+            <rect x="195" y="495" width="45" height="36" fill=" none " />
+            <g transform="translate(199, 515)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">j
+                 <tspan   font-family="Times New Roman" font-size="24">ω</tspan></text>
+            </g>
+</g>
+</svg>

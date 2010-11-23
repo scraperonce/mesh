@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="45" y="367" width="146" height="59" fill="#D9D7FD" />
+            <rect x="45" y="378" width="63" height="36" fill=" none " />
+            <g transform="translate(49, 398)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ａ
+                 <tspan   font-family="Times New Roman" font-size="24">&#160;＝</tspan></text>
+            </g>
+            <rect x="93" y="364" width="79" height="36" fill=" none " />
+            <g transform="translate(97, 384)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ε&#160;
+                 <tspan   font-family="Times New Roman" font-size="24">ＳＥ</tspan></text>
+            </g>
+            <rect x="110" y="395" width="29" height="36" fill=" none " />
+            <g transform="translate(114, 415)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ｄ</text>
+            </g>
+            <line x1="106"  y1="396" x2="172" y2="396" style="stroke:#000000;stroke-width:2;" />
+            <rect x="111" y="372" width="26" height="29" fill=" none " />
+            <g transform="translate(115, 392)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="18">ｏ</text>
+            </g>
+            <rect x="128" y="402" width="26" height="29" fill=" none " />
+            <g transform="translate(132, 422)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="18">ｏ</text>
+            </g>
+            <rect x="159" y="372" width="26" height="29" fill=" none " />
+            <g transform="translate(163, 392)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="18">ｏ</text>
+            </g>
+            <rect x="143" y="391" width="24" height="31" fill=" none " />
+            <g transform="translate(147, 411)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">2</text>
+            </g>
+            <rect x="29" y="330" width="231" height="36" fill=" none " />
+            <g transform="translate(33, 350)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">静電変換器の力係数</text>
+            </g>
+</g>
+</svg>

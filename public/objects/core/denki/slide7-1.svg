@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+<rect width="100%" height="100%" x="0" y="0" fill="#FFFFFF" />
+                <!-- action=5 -->
+    <rect x="2" y="2" width="414" height="46" fill=" none " />
+    <g transform="translate(6, 22)" text-anchor="start">
+        <text x="0" y="0"  font-family="ＤＨＰ平成明朝体W7" font-size="32">５-４&#160;&#160;スピーカとマイクの感度</text>
+    </g>
+    <line x1="12"  y1="42" x2="408" y2="42" style="stroke:#3333CC;stroke-width:3;" />
+</svg>

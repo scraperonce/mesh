@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="69" y="334" width="72" height="46" fill=" none " />
+            <g transform="translate(73, 354)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="28">ｚ&#160;
+                 <tspan   font-family="Times New Roman" font-size="24">＝</tspan>
+                 <tspan   font-family="Times New Roman" font-size="32">z</tspan></text>
+            </g>
+            <rect x="129" y="350" width="30" height="31" fill=" none " />
+            <g transform="translate(133, 370)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">m</text>
+            </g>
+            <rect x="171" y="341" width="89" height="36" fill=" none " />
+            <g transform="translate(175, 361)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｚ&#160;
+                 <tspan   font-family="Times New Roman" font-size="24">＝</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">Ｚｅ</tspan></text>
+            </g>
+</g>
+</svg>

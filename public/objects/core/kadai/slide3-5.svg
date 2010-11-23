@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="18" y="408" width="682" height="127" fill="#EAE298" />
+            <rect x="26" y="420" width="160" height="97" fill="#FFFFFF" />
+            <rect x="24" y="423" width="162" height="79" fill=" none " />
+            <g transform="translate(28, 443)" text-anchor="start">
+                <text x="0" y="0" fill="#800000" font-family="Verdana" font-size="20">Bad&#160;presentation&#160;samples</text>
+            </g>
+</g>
+</svg>

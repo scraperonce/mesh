@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectZoom","speed":"500"
+                        <g id="groupstart">
+            <rect x="15" y="163" width="381" height="80" fill="#FFFFFF" />
+            <rect x="16" y="162" width="110" height="36" fill=" none " />
+            <g transform="translate(20, 182)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">質量制御</text>
+            </g>
+            <rect x="169" y="162" width="186" height="36" fill=" none " />
+            <g transform="translate(173, 182)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">スチフネス小さく</text>
+            </g>
+            <rect x="122" y="159" width="42" height="41" fill=" none " />
+            <g transform="translate(126, 179)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="28">→</text>
+            </g>
+            <rect x="16" y="212" width="271" height="36" fill=" none " />
+            <g transform="translate(20, 232)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">低音になると振幅が増大</text>
+            </g>
+            <rect x="279" y="183" width="24" height="31" fill=" none " />
+            <g transform="translate(283, 203)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">2</text>
+            </g>
+            <rect x="16" y="186" width="230" height="36" fill=" none " />
+            <g transform="translate(20, 206)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">共振周波数で速度大</text>
+            </g>
+            <rect x="230" y="184" width="42" height="41" fill=" none " />
+            <g transform="translate(234, 204)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="28">→</text>
+            </g>
+            <rect x="257" y="187" width="35" height="36" fill=" none " />
+            <g transform="translate(261, 207)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ａ</text>
+            </g>
+            <rect x="291" y="187" width="21" height="36" fill=" none " />
+            <g transform="translate(295, 207)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">/</text>
+            </g>
+            <rect x="297" y="187" width="34" height="36" fill=" none " />
+            <g transform="translate(301, 207)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｒ</text>
+            </g>
+            <rect x="320" y="186" width="78" height="36" fill=" none " />
+            <g transform="translate(324, 206)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">大きく</text>
+            </g>
+</g>
+</svg>

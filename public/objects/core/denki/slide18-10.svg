@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="408" y="79" width="115" height="31" fill=" none " />
+            <g transform="translate(412, 99)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">振動速度&#160;
+                 <tspan   font-family="Times New Roman" font-size="20">Ｖ</tspan></text>
+            </g>
+            <rect x="336" y="44" width="28" height="36" fill=" none " />
+            <g transform="translate(340, 64)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ｚ</text>
+            </g>
+            <rect x="364" y="48" width="183" height="31" fill=" none " />
+            <g transform="translate(368, 68)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">機械インピーダンス</text>
+            </g>
+            <line x1="500"  y1="106" x2="500" y2="136" style="stroke:#006600;stroke-width:4;" />
+</g>
+</svg>

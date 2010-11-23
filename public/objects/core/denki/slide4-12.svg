@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectFly","speed":"500"
+                        <g id="groupstart">
+            <rect x="600" y="324" width="68" height="31" fill=" none " />
+            <g transform="translate(604, 344)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">電流&#160;
+                 <tspan   font-family="Times New Roman" font-size="20">Ｉ</tspan></text>
+            </g>
+            <rect x="586" y="292" width="120" height="31" fill=" none " />
+            <g transform="translate(590, 312)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">端子電圧&#160;&#160;
+                 <tspan   font-family="Times New Roman" font-size="20">Ｅ</tspan></text>
+            </g>
+            <line x1="582"  y1="323" x2="619" y2="323" style="stroke:#C07302;stroke-width:2;" />
+            <line x1="545"  y1="203" x2="622" y2="234" style="stroke:#000000;stroke-width:1;" />
+            <rect x="620" y="221" width="74" height="31" fill=" none " />
+            <g transform="translate(624, 241)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">コイル&#160;</text>
+            </g>
+            <rect x="612" y="239" width="89" height="36" fill=" none " />
+            <g transform="translate(616, 259)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">&#160;(線長&#160;
+                 <tspan   font-family="Times New Roman" font-size="24">l</tspan>
+                 <tspan   font-family="Times New Roman" font-size="20">&#160;</tspan>
+                 <tspan   font-family="Times New Roman" font-size="20">)</tspan></text>
+            </g>
+            <ellipse cx="645.5" cy="355.5" rx="7.5" ry="7.5" fill="#C07302" />
+            <ellipse cx="645.5" cy="355.5" rx="3.5" ry="3.5" fill="#CC9900" />
+            <line x1="459"  y1="193" x2="459" y2="356" style="stroke:#C07302;stroke-width:2;" />
+            <line x1="459"  y1="356" x2="641" y2="356" style="stroke:#C07302;stroke-width:2;" />
+            <ellipse cx="459.5" cy="158.5" rx="5.5" ry="5.5" fill="#F69302" />
+            <ellipse cx="459.5" cy="158.5" rx="1.5" ry="1.5" fill="#F69302" />
+            <ellipse cx="459.5" cy="163.5" rx="5.5" ry="5.5" fill="#F69302" />
+            <ellipse cx="459.5" cy="163.5" rx="1.5" ry="1.5" fill="#F69302" />
+            <ellipse cx="459.5" cy="168.5" rx="5.5" ry="5.5" fill="#F69302" />
+            <ellipse cx="459.5" cy="168.5" rx="1.5" ry="1.5" fill="#F69302" />
+            <ellipse cx="459.5" cy="173.5" rx="5.5" ry="5.5" fill="#F69302" />
+            <ellipse cx="459.5" cy="173.5" rx="1.5" ry="1.5" fill="#F69302" />
+            <ellipse cx="459.5" cy="178.5" rx="5.5" ry="5.5" fill="#F69302" />
+            <ellipse cx="459.5" cy="178.5" rx="1.5" ry="1.5" fill="#F69302" />
+            <ellipse cx="459.5" cy="183.5" rx="5.5" ry="5.5" fill="#F69302" />
+            <ellipse cx="459.5" cy="183.5" rx="1.5" ry="1.5" fill="#F69302" />
+            <ellipse cx="459.5" cy="188.5" rx="5.5" ry="5.5" fill="#F69302" />
+            <ellipse cx="459.5" cy="188.5" rx="1.5" ry="1.5" fill="#F69302" />
+            <ellipse cx="645.5" cy="322.5" rx="7.5" ry="7.5" fill="#C07302" />
+            <ellipse cx="645.5" cy="322.5" rx="3.5" ry="3.5" fill="#CC9900" />
+            <ellipse cx="533.5" cy="158.5" rx="5.5" ry="5.5" fill="#F69302" />
+            <ellipse cx="533.5" cy="158.5" rx="1.5" ry="1.5" fill="#F69302" />
+            <ellipse cx="533.5" cy="163.5" rx="5.5" ry="5.5" fill="#F69302" />
+            <ellipse cx="533.5" cy="163.5" rx="1.5" ry="1.5" fill="#F69302" />
+            <ellipse cx="533.5" cy="168.5" rx="5.5" ry="5.5" fill="#F69302" />
+            <ellipse cx="533.5" cy="168.5" rx="1.5" ry="1.5" fill="#F69302" />
+            <ellipse cx="533.5" cy="173.5" rx="5.5" ry="5.5" fill="#F69302" />
+            <ellipse cx="533.5" cy="173.5" rx="1.5" ry="1.5" fill="#F69302" />
+            <ellipse cx="533.5" cy="178.5" rx="5.5" ry="5.5" fill="#F69302" />
+            <ellipse cx="533.5" cy="178.5" rx="1.5" ry="1.5" fill="#F69302" />
+            <ellipse cx="533.5" cy="183.5" rx="5.5" ry="5.5" fill="#F69302" />
+            <ellipse cx="533.5" cy="183.5" rx="1.5" ry="1.5" fill="#F69302" />
+            <ellipse cx="533.5" cy="188.5" rx="5.5" ry="5.5" fill="#F69302" />
+            <ellipse cx="533.5" cy="188.5" rx="1.5" ry="1.5" fill="#F69302" />
+</g>
+</svg>

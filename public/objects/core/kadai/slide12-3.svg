@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="5" y="463" width="325" height="71" fill=" none " />
+                <image x="5" y="463" width="325px" height="71px" xlink:href="./img/12_16.gif"/>
+            <rect x="15" y="360" width="327" height="79" fill=" none " />
+            <g transform="translate(19, 380)" text-anchor="start">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">　The&#160;color&#160;of&#160;mutual　stripe&#160;pattern&#160;melts&#160;into&#160;each&#160;other&#160;,&#160;and&#160;the&#160;emphasis&#160;is&#160;lost.</text>
+            </g>
+</g>
+</svg>

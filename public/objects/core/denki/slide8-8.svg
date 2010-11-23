@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectZoom","speed":"500"
+                        <g id="groupstart">
+            <rect x="614" y="269" width="109" height="31" fill=" none " />
+            <g transform="translate(618, 289)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">バッフル板</text>
+            </g>
+            <rect x="432" y="389" width="89" height="31" fill=" none " />
+            <g transform="translate(436, 409)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">フレーム</text>
+            </g>
+            <g  transform="rotate(270,484,389)">
+            <line x1="475"  y1="384" x2="493" y2="394" style="stroke:#000000;stroke-width:1;" />
+            </g>
+            <rect x="427" y="455" width="94" height="31" fill=" none " />
+            <g transform="translate(431, 475)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">永久磁石</text>
+            </g>
+            <g  transform="rotate(270,523,451)">
+            <line x1="517"  y1="437" x2="529" y2="465" style="stroke:#000000;stroke-width:1;" />
+            </g>
+            <rect x="639" y="473" width="71" height="31" fill=" none " />
+            <g transform="translate(643, 493)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">ヨーク</text>
+            </g>
+            <g  transform="rotate(90,615.5,473.5)">
+            <line x1="608"  y1="450" x2="623" y2="497" style="stroke:#000000;stroke-width:1;" />
+            </g>
+</g>
+</svg>

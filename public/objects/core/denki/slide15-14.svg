@@ -1,0 +1,86 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="6" y="126" width="175" height="36" fill=" none " />
+            <g transform="translate(10, 146)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">よって、出力は</text>
+            </g>
+            <rect x="173" y="126" width="134" height="36" fill=" none " />
+            <g transform="translate(177, 146)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">Δ
+                 <tspan   font-family="Times New Roman" font-size="24">l&#160;</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">ｃｏｓθ</tspan></text>
+            </g>
+            <rect x="276" y="126" width="130" height="36" fill=" none " />
+            <g transform="translate(280, 146)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">に比例する</text>
+            </g>
+            <rect x="90" y="185" width="242" height="36" fill=" none " />
+            <g transform="translate(94, 205)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">{
+                 <tspan   font-family="Times New Roman" font-size="24">ｒ&#160;</tspan>
+                 <tspan   font-family="Times New Roman" font-size="20">+ｊ&#160;(ωｍ&#160;-ｓ&#160;&#160;ω)</tspan>
+                 <tspan   font-family="Times New Roman" font-size="20">}</tspan>
+                 <tspan   font-family="Times New Roman" font-size="20">&#160;&#160;Ｒ&#160;&#160;+Ａ</tspan></text>
+            </g>
+            <rect x="119" y="158" width="39" height="31" fill=" none " />
+            <g transform="translate(123, 178)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">AS</text>
+            </g>
+            <line x1="98"  y1="189" x2="318" y2="189" style="stroke:#000000;stroke-width:2;" />
+            <rect x="48" y="160" width="30" height="36" fill=" none " />
+            <g transform="translate(52, 180)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">E</text>
+            </g>
+            <rect x="49" y="183" width="29" height="36" fill=" none " />
+            <g transform="translate(53, 203)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">P</text>
+            </g>
+            <rect x="73" y="172" width="28" height="36" fill=" none " />
+            <g transform="translate(77, 192)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">=</text>
+            </g>
+            <line x1="52"  y1="189" x2="76" y2="189" style="stroke:#000000;stroke-width:2;" />
+            <rect x="316" y="180" width="24" height="29" fill=" none " />
+            <g transform="translate(320, 200)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="18">2</text>
+            </g>
+            <rect x="281" y="194" width="24" height="31" fill=" none " />
+            <g transform="translate(285, 214)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">o</text>
+            </g>
+            <rect x="136" y="156" width="101" height="31" fill=" none " />
+            <g transform="translate(140, 176)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">（
+                 <tspan   font-family="Times New Roman" font-size="20">ω</tspan>
+                 <tspan   font-family="Times New Roman" font-size="20">&#160;&#160;</tspan>
+                 <tspan   font-family="Times New Roman" font-size="20">ｃ&#160;</tspan>
+                 <tspan   font-family="Times New Roman" font-size="20">）</tspan></text>
+            </g>
+            <rect x="178" y="157" width="21" height="36" fill=" none " />
+            <g transform="translate(182, 177)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">/</text>
+            </g>
+            <rect x="256" y="186" width="21" height="36" fill=" none " />
+            <g transform="translate(260, 206)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">/</text>
+            </g>
+            <rect x="214" y="186" width="21" height="36" fill=" none " />
+            <g transform="translate(218, 206)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">/</text>
+            </g>
+            <rect x="213" y="158" width="134" height="31" fill=" none " />
+            <g transform="translate(217, 178)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="18">Δ
+                 <tspan   font-family="Times New Roman" font-size="20">l&#160;</tspan>
+                 <tspan   font-family="Times New Roman" font-size="20">ｃｏｓθ</tspan></text>
+            </g>
+            <rect x="60" y="194" width="24" height="29" fill=" none " />
+            <g transform="translate(64, 214)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="18">1</text>
+            </g>
+</g>
+</svg>

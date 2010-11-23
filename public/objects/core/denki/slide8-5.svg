@@ -1,0 +1,57 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="121" y="389" width="141" height="31" fill=" none " />
+            <g transform="translate(125, 409)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">共振周波数&#160;
+                 <tspan   font-family="Times New Roman" font-size="20">ｆｏ</tspan></text>
+            </g>
+            <line x1="111"  y1="422" x2="143" y2="477" style="stroke:#000000;stroke-width:2;" />
+            <line x1="109"  y1="340" x2="109" y2="488" style="stroke:#000000;stroke-width:2;" />
+            <line x1="338"  y1="311" x2="338" y2="489" style="stroke:#000000;stroke-width:3;" />
+            <line x1="329"  y1="453" x2="337" y2="453" style="stroke:#000000;stroke-width:3;" />
+            <line x1="329"  y1="435" x2="337" y2="435" style="stroke:#000000;stroke-width:3;" />
+            <line x1="329"  y1="416" x2="337" y2="416" style="stroke:#000000;stroke-width:3;" />
+            <rect x="348" y="401" width="34" height="31" fill=" none " />
+            <g transform="translate(352, 421)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">50</text>
+            </g>
+            <rect x="348" y="423" width="34" height="31" fill=" none " />
+            <g transform="translate(352, 443)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">30</text>
+            </g>
+            <rect x="348" y="443" width="34" height="31" fill=" none " />
+            <g transform="translate(352, 463)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">20</text>
+            </g>
+            <rect x="348" y="474" width="34" height="31" fill=" none " />
+            <g transform="translate(352, 494)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">10</text>
+            </g>
+            <line x1="329"  y1="388" x2="337" y2="388" style="stroke:#000000;stroke-width:3;" />
+            <line x1="329"  y1="361" x2="337" y2="361" style="stroke:#000000;stroke-width:3;" />
+            <rect x="337" y="345" width="44" height="31" fill=" none " />
+            <g transform="translate(341, 365)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">200</text>
+            </g>
+            <rect x="337" y="376" width="44" height="31" fill=" none " />
+            <g transform="translate(341, 396)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">100</text>
+            </g>
+            <g  transform="rotate(270,392,387.5)">
+            <rect x="270" y="372" width="244" height="31" fill=" none " />
+            <g transform="translate(274, 392)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">電気インピーダンス（Ω）</text>
+            </g>
+            </g>
+            <g  transform="rotate(342,228,438)">
+            <rect x="156" y="424" width="144" height="28" fill=" none " />
+            <g transform="translate(160, 444)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">インピーダンス</text>
+            </g>
+            </g>
+</g>
+</svg>

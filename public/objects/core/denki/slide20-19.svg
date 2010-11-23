@@ -1,0 +1,83 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectZoom","speed":"500"
+                        <g id="groupstart">
+            <rect x="26" y="434" width="305" height="64" fill="#FFDAC3" />
+            <rect x="50" y="464" width="43" height="26" fill=" none " />
+            <g transform="translate(54, 484)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="16">ＭＡ</text>
+            </g>
+            <rect x="28" y="450" width="35" height="36" fill=" none " />
+            <g transform="translate(32, 470)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｋ</text>
+            </g>
+            <rect x="78" y="450" width="37" height="36" fill=" none " />
+            <g transform="translate(82, 470)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">＝</text>
+            </g>
+            <rect x="175" y="474" width="33" height="26" fill=" none " />
+            <g transform="translate(179, 494)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="16">Ｉ&#160;１</text>
+            </g>
+            <line x1="161"  y1="468" x2="203" y2="468" style="stroke:#000000;stroke-width:2;" />
+            <rect x="154" y="463" width="33" height="36" fill=" none " />
+            <g transform="translate(158, 483)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｅ</text>
+            </g>
+            <rect x="154" y="433" width="33" height="36" fill=" none " />
+            <g transform="translate(158, 453)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｅ</text>
+            </g>
+            <rect x="174" y="446" width="36" height="26" fill=" none " />
+            <g transform="translate(178, 466)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="16">Ｏ１</text>
+            </g>
+            <rect x="229" y="474" width="38" height="26" fill=" none " />
+            <g transform="translate(233, 494)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="16">Ｏ２</text>
+            </g>
+            <line x1="215"  y1="468" x2="257" y2="468" style="stroke:#000000;stroke-width:2;" />
+            <rect x="208" y="463" width="33" height="36" fill=" none " />
+            <g transform="translate(212, 483)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｅ</text>
+            </g>
+            <rect x="208" y="433" width="33" height="36" fill=" none " />
+            <g transform="translate(212, 453)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｅ</text>
+            </g>
+            <rect x="228" y="446" width="35" height="26" fill=" none " />
+            <g transform="translate(232, 466)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="16">Ｉ&#160;２</text>
+            </g>
+            <rect x="283" y="474" width="35" height="26" fill=" none " />
+            <g transform="translate(287, 494)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="16">Ｉ&#160;３</text>
+            </g>
+            <line x1="269"  y1="468" x2="311" y2="468" style="stroke:#000000;stroke-width:2;" />
+            <rect x="262" y="463" width="33" height="36" fill=" none " />
+            <g transform="translate(266, 483)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｅ</text>
+            </g>
+            <rect x="262" y="433" width="33" height="36" fill=" none " />
+            <g transform="translate(266, 453)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｅ</text>
+            </g>
+            <rect x="282" y="446" width="38" height="26" fill=" none " />
+            <g transform="translate(286, 466)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="16">Ｏ３</text>
+            </g>
+            <rect x="90" y="450" width="74" height="36" fill=" none " />
+            <g transform="translate(94, 470)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">　
+                 <tspan   font-family="Times New Roman" font-size="24">Ｊ&#160;&#160;Ｚ</tspan></text>
+            </g>
+            <rect x="119" y="464" width="28" height="26" fill=" none " />
+            <g transform="translate(123, 484)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="16">Ａ</text>
+            </g>
+            <line x1="110"  y1="438" x2="122" y2="494" style="stroke:#000000;stroke-width:2;" />
+            <line x1="120"  y1="438" x2="312" y2="438" style="stroke:#000000;stroke-width:2;" />
+</g>
+</svg>

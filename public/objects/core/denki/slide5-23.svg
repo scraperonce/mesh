@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <line x1="530"  y1="460" x2="568" y2="460" style="stroke:#000000;stroke-width:1;" />
+            <line x1="442"  y1="460" x2="492" y2="460" style="stroke:#000000;stroke-width:1;" />
+            <line x1="568"  y1="385" x2="568" y2="474" style="stroke:#000000;stroke-width:1;" />
+            <rect x="489" y="444" width="42" height="31" fill=" none " />
+            <g transform="translate(493, 464)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">Ｇ
+                 <tspan   font-family="Times New Roman" font-size="18">ｏ</tspan></text>
+            </g>
+            <ellipse cx="568.5" cy="422.5" rx="4.5" ry="4.5" fill="#FF5050" />
+</g>
+</svg>

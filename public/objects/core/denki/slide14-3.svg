@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="336" y="66" width="384" height="120" fill="#F6DEDE" />
+            <rect x="334" y="64" width="110" height="36" fill=" none " />
+            <g transform="translate(338, 84)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">抵抗制御</text>
+            </g>
+            <rect x="430" y="60" width="42" height="41" fill=" none " />
+            <g transform="translate(434, 80)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="28">→</text>
+            </g>
+            <rect x="452" y="65" width="35" height="36" fill=" none " />
+            <g transform="translate(456, 85)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ａ</text>
+            </g>
+            <rect x="472" y="61" width="24" height="31" fill=" none " />
+            <g transform="translate(476, 81)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">2</text>
+            </g>
+            <rect x="484" y="65" width="21" height="36" fill=" none " />
+            <g transform="translate(488, 85)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">/</text>
+            </g>
+            <rect x="490" y="65" width="34" height="36" fill=" none " />
+            <g transform="translate(494, 85)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｒ</text>
+            </g>
+            <rect x="510" y="64" width="99" height="36" fill=" none " />
+            <g transform="translate(514, 84)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">を大きく</text>
+            </g>
+            <rect x="452" y="93" width="258" height="36" fill=" none " />
+            <g transform="translate(456, 113)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">質量、スチフネス小さく</text>
+            </g>
+            <rect x="450" y="114" width="225" height="46" fill=" none " />
+            <g transform="translate(454, 134)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">放射抵抗&#160;
+                 <tspan   font-family="Times New Roman" font-size="32">ｒ&#160;</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">を大きく</tspan></text>
+            </g>
+</g>
+</svg>

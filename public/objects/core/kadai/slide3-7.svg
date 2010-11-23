@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectFly","speed":"300"
+    <rect x="232" y="421" width="388" height="31" fill=" none " />
+    <g transform="translate(426, 441)" text-anchor="middle">
+        <text x="0" y="0"  font-family="Verdana" font-size="20">・The&#160;character&#160;and&#160;figure&#160;are&#160;greatly</text>
+    </g>
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="199" y="380" width="148" height="31" fill=" none " />
+            <g transform="translate(273, 400)" text-anchor="middle">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">Simulation&#160;.4</text>
+            </g>
+            <rect x="395" y="211" width="257" height="31" fill=" none " />
+            <g transform="translate(523.5, 231)" text-anchor="middle">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">2.&#160;Image&#160;and&#160;animation</text>
+            </g>
+            <rect x="35" y="466" width="293" height="31" fill=" none " />
+            <g transform="translate(181.5, 486)" text-anchor="middle">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">Experimental&#160;psychology&#160;.6</text>
+            </g>
+            <rect x="16" y="424" width="319" height="31" fill=" none " />
+            <g transform="translate(175.5, 444)" text-anchor="middle">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">Three-dimensional&#160;graphics&#160;.5</text>
+            </g>
+            <rect x="386" y="253" width="174" height="31" fill=" none " />
+            <g transform="translate(473, 273)" text-anchor="middle">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">3.&#160;Color&#160;science</text>
+            </g>
+            <rect x="404" y="169" width="317" height="31" fill=" none " />
+            <g transform="translate(562.5, 189)" text-anchor="middle">
+                <text x="0" y="0"  font-family="Verdana" font-size="20">1.&#160;Composition&#160;and&#160;animation</text>
+            </g>
+</g>
+</svg>

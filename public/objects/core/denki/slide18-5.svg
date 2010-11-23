@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="6" y="347" width="631" height="36" fill=" none " />
+            <g transform="translate(10, 367)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">これら３式から、力係数
+                 <tspan   font-family="Times New Roman" font-size="24">Ａ&#160;&#160;&#160;Ａ&#160;&#160;&#160;</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">をあらかじめ測定しておけば</tspan></text>
+            </g>
+            <rect x="6" y="377" width="550" height="36" fill=" none " />
+            <g transform="translate(10, 397)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">電気量の計測で機械諸量の値を求めることができる</text>
+            </g>
+            <rect x="306" y="351" width="32" height="36" fill=" none " />
+            <g transform="translate(310, 371)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ｎ</text>
+            </g>
+            <rect x="269" y="356" width="27" height="31" fill=" none " />
+            <g transform="translate(273, 376)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">ｄ</text>
+            </g>
+</g>
+</svg>

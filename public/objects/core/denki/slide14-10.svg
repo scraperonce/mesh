@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="0" y="192" width="386" height="36" fill=" none " />
+            <g transform="translate(4, 212)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">空隙で抵抗制御をおこない、高域と</text>
+            </g>
+            <rect x="0" y="218" width="394" height="36" fill=" none " />
+            <g transform="translate(4, 238)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">低域それぞれに共振器をつけて補正</text>
+            </g>
+</g>
+</svg>

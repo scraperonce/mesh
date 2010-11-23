@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectStretch","speed":"500"
+                        <g id="groupstart">
+            <rect x="408" y="399" width="74" height="31" fill=" none " />
+            <g transform="translate(412, 419)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">振動板</text>
+            </g>
+            <line x1="511"  y1="279" x2="511" y2="309" style="stroke:#990099;stroke-width:1.5;" />
+            <line x1="510"  y1="456" x2="510" y2="487" style="stroke:#990099;stroke-width:1.5;" />
+</g>
+</svg>

@@ -1,0 +1,121 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectZoom","speed":"500"
+                        <g id="groupstart">
+            <rect x="377" y="315" width="74" height="31" fill=" none " />
+            <g transform="translate(381, 335)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">磁性材</text>
+            </g>
+            <line x1="404"  y1="276" x2="410" y2="315" style="stroke:#000000;stroke-width:1;" />
+            <rect x="620" y="185" width="54" height="31" fill=" none " />
+            <g transform="translate(624, 205)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">磁束</text>
+            </g>
+            <line x1="470"  y1="166" x2="475" y2="166" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="479"  y1="166" x2="484" y2="166" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="488"  y1="166" x2="492" y2="170" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="493"  y1="171" x2="493" y2="175" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="517"  y1="166" x2="522" y2="166" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="508"  y1="166" x2="513" y2="166" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="501"  y1="166" x2="505" y2="170" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="500"  y1="171" x2="500" y2="175" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="468"  y1="174" x2="472" y2="174" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="475"  y1="174" x2="479" y2="174" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="482"  y1="174" x2="485" y2="178" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="486"  y1="179" x2="486" y2="183" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="486"  y1="187" x2="486" y2="191" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="486"  y1="196" x2="486" y2="200" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="486"  y1="204" x2="486" y2="208" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="486"  y1="212" x2="486" y2="216" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="520"  y1="174" x2="524" y2="174" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="513"  y1="174" x2="517" y2="174" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="506"  y1="174" x2="509" y2="178" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="505"  y1="179" x2="505" y2="183" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="505"  y1="187" x2="505" y2="191" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="505"  y1="196" x2="505" y2="200" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="505"  y1="204" x2="505" y2="208" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="505"  y1="212" x2="505" y2="216" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="468"  y1="182" x2="473" y2="182" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="476"  y1="183" x2="479" y2="186" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="479"  y1="188" x2="479" y2="192" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="518"  y1="182" x2="523" y2="182" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="513"  y1="183" x2="515" y2="186" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="513"  y1="188" x2="513" y2="192" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="424"  y1="166" x2="428" y2="166" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="432"  y1="166" x2="436" y2="166" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="440"  y1="166" x2="444" y2="166" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="449"  y1="166" x2="453" y2="166" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="540"  y1="166" x2="544" y2="166" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="548"  y1="166" x2="552" y2="166" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="556"  y1="166" x2="560" y2="166" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="565"  y1="166" x2="569" y2="166" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="432"  y1="184" x2="436" y2="184" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="440"  y1="184" x2="444" y2="184" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="449"  y1="184" x2="453" y2="184" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="541"  y1="184" x2="545" y2="184" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="549"  y1="184" x2="553" y2="184" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="558"  y1="184" x2="562" y2="184" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="422"  y1="174" x2="426" y2="174" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="414"  y1="174" x2="418" y2="174" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="407"  y1="174" x2="410" y2="178" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="406"  y1="180" x2="406" y2="184" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="406"  y1="189" x2="406" y2="193" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="406"  y1="197" x2="406" y2="201" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="406"  y1="205" x2="406" y2="209" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="406"  y1="214" x2="406" y2="218" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="431"  y1="174" x2="435" y2="174" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="440"  y1="174" x2="444" y2="174" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="448"  y1="174" x2="452" y2="174" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="422"  y1="267" x2="426" y2="267" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="414"  y1="267" x2="418" y2="267" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="407"  y1="263" x2="410" y2="267" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="406"  y1="256" x2="406" y2="260" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="406"  y1="248" x2="406" y2="252" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="406"  y1="240" x2="406" y2="244" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="406"  y1="232" x2="406" y2="236" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="406"  y1="223" x2="406" y2="227" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="431"  y1="267" x2="435" y2="267" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="440"  y1="267" x2="444" y2="267" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="448"  y1="267" x2="452" y2="267" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="466"  y1="267" x2="470" y2="267" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="474"  y1="267" x2="478" y2="267" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="481"  y1="263" x2="484" y2="267" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="485"  y1="256" x2="485" y2="260" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="456"  y1="267" x2="460" y2="267" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="566"  y1="174" x2="570" y2="174" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="574"  y1="174" x2="578" y2="174" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="581"  y1="174" x2="584" y2="178" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="586"  y1="180" x2="586" y2="184" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="586"  y1="189" x2="586" y2="193" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="586"  y1="197" x2="586" y2="201" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="586"  y1="205" x2="586" y2="209" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="586"  y1="214" x2="586" y2="218" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="556"  y1="174" x2="560" y2="174" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="547"  y1="174" x2="551" y2="174" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="539"  y1="174" x2="543" y2="174" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="566"  y1="267" x2="570" y2="267" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="574"  y1="267" x2="578" y2="267" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="581"  y1="263" x2="584" y2="267" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="586"  y1="256" x2="586" y2="260" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="586"  y1="248" x2="586" y2="252" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="586"  y1="240" x2="586" y2="244" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="586"  y1="232" x2="586" y2="236" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="586"  y1="223" x2="586" y2="227" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="556"  y1="267" x2="560" y2="267" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="547"  y1="267" x2="551" y2="267" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="539"  y1="267" x2="543" y2="267" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="522"  y1="267" x2="526" y2="267" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="514"  y1="267" x2="518" y2="267" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="507"  y1="263" x2="510" y2="267" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="506"  y1="256" x2="506" y2="260" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="531"  y1="267" x2="535" y2="267" style="stroke:#FFFFFF;stroke-width:2;" />
+            <line x1="561"  y1="177" x2="622" y2="202" style="stroke:#000000;stroke-width:1;" />
+            <line x1="491"  y1="242" x2="500" y2="330" style="stroke:#000000;stroke-width:1;" />
+            <rect x="462" y="324" width="94" height="31" fill=" none " />
+            <g transform="translate(466, 344)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">永久磁石</text>
+            </g>
+</g>
+</svg>

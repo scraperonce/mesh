@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectZoom","speed":"500"
+                        <g id="groupstart">
+            <line x1="437"  y1="67" x2="466" y2="96" style="stroke:#000000;stroke-width:1;" />
+            <rect x="461" y="46" width="71" height="31" fill=" none " />
+            <g transform="translate(465, 66)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">ヨーク</text>
+            </g>
+            <line x1="406"  y1="67" x2="409" y2="136" style="stroke:#000000;stroke-width:1;" />
+            <rect x="379" y="38" width="94" height="31" fill=" none " />
+            <g transform="translate(383, 58)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">永久磁石</text>
+            </g>
+</g>
+</svg>

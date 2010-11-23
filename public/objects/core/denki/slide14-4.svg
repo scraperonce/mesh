@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <ellipse cx="528" cy="303" rx="3" ry="3" fill="#FF0303" />
+            <ellipse cx="537" cy="303" rx="3" ry="3" fill="#FF0303" />
+            <ellipse cx="546" cy="303" rx="3" ry="3" fill="#FF0303" />
+            <ellipse cx="530" cy="462" rx="3" ry="3" fill="#FF0303" />
+            <ellipse cx="538" cy="462" rx="3" ry="3" fill="#FF0303" />
+            <ellipse cx="547" cy="462" rx="3" ry="3" fill="#FF0303" />
+            <line x1="510"  y1="309" x2="548" y2="309" style="stroke:#CC00CC;stroke-width:4;" />
+            <line x1="511"  y1="456" x2="549" y2="456" style="stroke:#CC00CC;stroke-width:4;" />
+            <rect x="407" y="267" width="69" height="31" fill=" none " />
+            <g transform="translate(411, 287)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">コイル</text>
+            </g>
+            <line x1="474"  y1="282" x2="522" y2="300" style="stroke:#000000;stroke-width:1;" />
+</g>
+</svg>

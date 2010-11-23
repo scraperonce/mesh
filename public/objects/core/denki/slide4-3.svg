@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="11" y="71" width="288" height="36" fill=" none " />
+            <g transform="translate(15, 91)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">磁界と電流による電磁エネ</text>
+            </g>
+            <rect x="11" y="101" width="288" height="36" fill=" none " />
+            <g transform="translate(15, 121)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ルギを利用するタイプで、</text>
+            </g>
+            <rect x="11" y="131" width="242" height="36" fill=" none " />
+            <g transform="translate(15, 151)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">もっとも歪みが少ない</text>
+            </g>
+</g>
+</svg>

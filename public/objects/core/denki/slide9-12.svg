@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectZoom","speed":"500"
+                        <g id="groupstart">
+            <rect x="626" y="434" width="58" height="10" fill="#1D731D" />
+            <rect x="552" y="317" width="131" height="13" fill="#1D731D" />
+            <rect x="552" y="482" width="131" height="14" fill="#1D731D" />
+            <rect x="553" y="318" width="10" height="178" fill="#1D731D" />
+            <rect x="563" y="401" width="94" height="31" fill=" none " />
+            <g transform="translate(567, 421)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">筒形音道</text>
+            </g>
+            <line x1="591"  y1="430" x2="623" y2="469" style="stroke:#000000;stroke-width:2;" />
+            <line x1="591"  y1="430" x2="622" y2="446" style="stroke:#000000;stroke-width:2;" />
+            <rect x="539" y="507" width="169" height="31" fill=" none " />
+            <g transform="translate(543, 527)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">位相反転バッフル</text>
+            </g>
+            <rect x="575" y="329" width="92" height="31" fill=" none " />
+            <g transform="translate(579, 349)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="20">スピーカ</text>
+            </g>
+            <rect x="654" y="374" width="13" height="11" fill="#00BB00" />
+            <rect x="642" y="359" width="15" height="39" fill="#0C5DFE" />
+</g>
+</svg>

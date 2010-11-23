@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="47" y="101" width="393" height="36" fill=" none " />
+            <g transform="translate(51, 121)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">スピーカ正面軸上&#160;１ｍ&#160;の音場を測定</text>
+            </g>
+            <rect x="29" y="65" width="204" height="36" fill=" none " />
+            <g transform="translate(33, 85)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">スピーカ感度測定</text>
+            </g>
+</g>
+</svg>

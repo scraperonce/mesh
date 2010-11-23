@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+"type":"AnimEffectWipe","speed":"500"
+                        <g id="groupstart">
+            <rect x="38" y="120" width="26" height="36" fill=" none " />
+            <g transform="translate(42, 140)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">o</text>
+            </g>
+            <rect x="90" y="120" width="26" height="36" fill=" none " />
+            <g transform="translate(94, 140)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">o</text>
+            </g>
+            <rect x="139" y="120" width="26" height="36" fill=" none " />
+            <g transform="translate(143, 140)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">o</text>
+            </g>
+            <rect x="23" y="114" width="458" height="36" fill=" none " />
+            <g transform="translate(27, 134)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">ｄ&#160;&#160;
+                 <tspan   font-family="Times New Roman" font-size="24">≫</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">ｘ&#160;&#160;&#160;,&#160;Ｅ&#160;&#160;</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">≫</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">ｅ&#160;&#160;</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">として一次近似をおこなう</tspan></text>
+            </g>
+            <rect x="23" y="84" width="603" height="36" fill=" none " />
+            <g transform="translate(27, 104)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">これによる歪みを押さえるために直流バイアス
+                 <tspan   font-family="Times New Roman" font-size="24">&#160;Ｅ&#160;&#160;&#160;&#160;</tspan>
+                 <tspan   font-family="Times New Roman" font-size="24">を加え</tspan></text>
+            </g>
+            <rect x="526" y="90" width="26" height="36" fill=" none " />
+            <g transform="translate(530, 110)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">o</text>
+            </g>
+</g>
+</svg>
