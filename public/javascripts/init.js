@@ -1,6 +1,6 @@
 $(function() {
 	var client = nylon.client;
-	var core = nylon.require("/javascripts/mesh/svg-core");
+	var core = nylon.require("/javascripts/mesh/petit-core-client");
 	var ecoco = nylon.require("/javascripts/mesh/petit-ecoco-client");
 	
 	var module = [];

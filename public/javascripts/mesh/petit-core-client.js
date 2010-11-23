@@ -23,17 +23,15 @@
 		};
 
 		$(expr).css({
-			position: "relative",
-			backgroundImage: "url('/objects/core/loader.gif')",
-			backgroundRepeat: "no-repeat",
-			backgroundPosition: "center"
+			position: "relative"
 		});
 		var $viewPort = $("<div></div>");
 		var $touchPad = $("<div></div>");
 		$touchPad.css({
 			position: "absolute", left: 0, top: 0,
 			width: "100%", height: "100%", zIndex:9999,
-			backgroundImage: "url('/objects/core/spacer.gif')"
+			backgroundRepeat: "no-repeat",
+			backgroundPosition: "right top"
 		})
 		$(expr).append($viewPort);
 		$(expr).append($touchPad);
@@ -45,6 +43,9 @@
 				page: Number(param.page), index: Number(param.index)
 			};
 			
+			// display up loader image
+			$touchPad.css("background-image", "url('/objects/core/loader.gif')");
+			
 			if (current.page != next.page){
 				current.page = next.page;
 				current.index = -1;
@@ -54,32 +55,38 @@
 			refleshId = setTimeout(function() {
 				var callee = arguments.callee;
 				
-				if (current.index < next.index) {
-					var action = slides[current.page].actions[++current.index];
-
-					switch (action.type) {
-						case "svg":
-							libsvg.load(BASE_URL + name + "/" + action.src, function(svg) {
-							
-								svg.setAttribute("width", "100%");
-								svg.setAttribute("height", "100%");
-								
-								var $viewer = $("<div></div>");
-								$viewer.addClass("page");
-								$viewer.css({
-									width: "100%", height: "100%",
-									position: "absolute", left: 0, top: 0
-								});
-								if (current.index == 0) $viewer.css("background-color", "white");
-								
-								$viewer.append(svg);
-								$viewPort.append($viewer);
-								callee();
-							});
-						break;
-					}
+				var action = slides[current.page].actions[current.index + 1];
+				
+				if (!action || current.index == next.index) {
+					$touchPad.css("background-image", "url('/objects/core/spacer.gif')");
+					return;
+				} else {
+					current.index++;
 				}
-			}, 10);
+				
+				
+				switch (action.type) {
+					case "svg":
+						libsvg.load(BASE_URL + name + "/" + action.src, function(svg) {
+						
+							svg.setAttribute("width", "100%");
+							svg.setAttribute("height", "100%");
+							
+							var $viewer = $("<div></div>");
+							$viewer.addClass("page");
+							$viewer.css({
+								width: "100%", height: "100%",
+								position: "absolute", left: 0, top: 0
+							});
+							if (current.index == 0) $viewer.css("background-color", "white");
+							
+							$viewer.append(svg);
+							$viewPort.append($viewer);
+							callee();
+						});
+					break;
+				}
+			}, 0);
 		});
 		
 		$touchPad.click(function() {
@@ -87,6 +94,7 @@
 			var next = {
 				page: current.page, index: current.index
 			};
+
 			if (slides[current.page].actions[current.index + 1] == undefined) {
 				next.page = (current.page + 1) % slides.length;
 				next.index = 0;
