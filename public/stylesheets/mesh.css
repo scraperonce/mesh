@@ -1,0 +1,51 @@
+#wrapper #header {
+	padding: 0 0;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 1em;
+}
+
+#header h1 {
+	position: relative;
+}
+
+#header h1 .userinfo {
+	position: absolute;
+	right: 0;
+	font-size: .5em;
+	font-weight: normal;
+}
+
+#header h1 .userinfo .username {
+	font-weight: bold;
+}
+
+#header h1 .userinfo .username.granted {
+	color: green;
+}
+
+#mesh .slide {
+	float: left;
+	width: 600px;
+	height: 450px;
+	border: 1px solid gray;
+	overflow: hidden;
+}
+
+#mesh .sidebar {
+	float: right;
+}
+
+#mesh .sidebar .video {
+	width: 300px;
+	height: 225px;
+	border: 1px solid gray;
+}
+
+#mesh .slide_name {
+	clear: both;
+	font-size: 0.8em;
+	color: gray;
+}

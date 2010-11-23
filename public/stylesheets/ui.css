@@ -1,0 +1,21 @@
+.ui_toast {
+	position: absolute;
+	top: 20px; right: 20px;
+	
+	width: 12em;
+	height: 3em;
+	padding: 1em;
+	background-color: #111;
+	color: #eee;
+	
+	line-height: 1.2;
+	
+	opacity: 0.8;
+	
+	box-shadow: 0 0 3px black;
+	-moz-box-shadow: 0 0 3px black;
+	-webkit-box-shadow: 0 0 3px black;
+	border-radius: 5px;        /* CSS3ëêàƒ */  
+	-webkit-border-radius: 5px;    /* Safari,Google Chromeóp */  
+	-moz-border-radius: 5px;   /* Firefoxóp */  
+}

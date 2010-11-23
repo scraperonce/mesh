@@ -1,0 +1,47 @@
+<form action="/logout" method="post" id="greeting" class="box">
+<% if (this.user.granted) { %>
+<p>ようこそ、 <%= this.user.fullname %> <span class="userid">(<%= this.user.name %>)</span> さん。
+<% } else { %>
+<p>ようこそ、 <%= this.user.name %> さん。
+<% } %>
+<input type="submit" value="ログアウト" class="logout"></p>
+</form>
+
+<% if (this.user.granted) { %>
+
+<!-- for teachers begin -->
+<form action="/lesson/start" method="post" class="box shrinkey" id="lesson_create">
+<h2 class="handle">授業の開始</h2>
+<h3>作成した授業一覧</h3>
+<% if (lessonStarted) { %>
+<p class="box message">授業は開始済みです。<a href="/lesson">こちらから移動</a>してください。</p>
+<% } else if (subjects.length) { %>
+<table id="lesson_table">
+<tr><th width="40">選択</th><th width="250">授業名</th><th>説明</th><th width="150">パスワード</th></tr>
+<%  for (var i=0, len=subjects.length; i<len; i++) { %>
+<tr><td style="text-align:center"><input type="radio" name="subject_id" value="<%= subjects[i].id %>"></td>
+	<td><%= subjects[i].title %></td><td><%= subjects[i].description || "" %></td><td><%= subjects[i].password || "" %></td>
+<%  } %>
+</table>
+<p class="submit"><input type="submit" value="選択した授業を作成"></p>
+<% } else { %><p class="box error_message">授業はまだ作成されていません</p><% } %>
+</form>
+<form action="/subject/create" method="post" class="box shrinkey">
+<h2 class="handle">授業の作成</h2>
+<table valign="top">
+<tr><th>授業名</th><td><input type="text" name="title"></td></tr>
+<tr><th valign="top">説明</th><td><textarea name="description">ここに説明を入力してください</textarea></td></tr>
+</table>
+</form>
+<!-- for teachers end -->
+
+<% } %>
+
+<div class="box shrinkey">
+<h2 class="handle">現在開講中の授業</h2>
+<%  for (var i=0, len=lessons.length; i<len; i++) { %>
+<ul>
+<li><a href="/lesson/<%= lessons[i].teacher %>">「<%= lessons[i].title %>」 <%= lessons[i].fullname %> 先生</a></li>
+</ul>
+<%  } %>
+</div>

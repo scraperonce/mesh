@@ -1,0 +1,10 @@
+<form action="<%= this.url %>" method="post" class="box">
+<h2>ログイン</h2>
+<p>学生はパスワードを入れないでください。</p>
+<%  if(error == "BADPASS") { %>
+<p class="error_message">教員用IDです。パスワードが誤っています。</p>
+<% } else if (error == "BADINPUT") {%>
+<p class="error_message">入力欄に使用できない文字が入っています(空白や全角文字)など</p>
+<% } %>
+<p>ユーザ名:<input type="text" name="user">&nbsp;パスワード&nbsp;<input type="password" name="pass">&nbsp;<input type="submit" value="ログイン"></p>
+</form>

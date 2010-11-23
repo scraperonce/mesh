@@ -1,0 +1,38 @@
+#greeting {
+	position: relative;
+}
+
+#greeting .userid {
+	color: gray;
+}
+
+#greeting .logout {
+	position: absolute;
+	right: 1em;
+}
+
+#lesson_table {
+	width: 100%;
+	background-color: #fffefe;
+	border-collapse: collapse;
+}
+
+#lesson_table tr {
+	border-bottom: 1px solid #ccc;
+}
+
+#lesson_table td, #lesson_table th {
+	padding: .25em;
+}
+
+#lesson_table th {
+	text-align: left;
+}
+
+#lesson_table td {
+	text-align: left;
+}
+
+#lesson_create .submit {
+	margin-top: 1em;
+}

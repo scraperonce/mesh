@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title><%= title %><% if (page) { %><%= " - "+page %><% } %></title>
+<link rel="stylesheet" type="text/css" href="/stylesheets/base.css">
+<link rel="stylesheet" type="text/css" href="/stylesheets/ui.css">
+<link rel="stylesheet" type="text/css" href="/stylesheets/mesh.css">
+<script type="text/javascript" src="/users.js"></script>
+<script type="text/javascript" src="/javascripts/jquery-1.4.3.min.js"></script>
+<script type="text/javascript" src="/javascripts/ui.js"></script>
+<script type="text/javascript" src="/javascripts/mesh/client.js"></script>
+<script type="text/javascript" src="/javascripts/init.js"></script>
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+<% var grantedClass = ""; %>
+<% if (this.user.granted == true) grantedClass = "granted"; %>
+<h1>MeSH 2 BETA <span class="userinfo">Login as <span class="username <%= grantedClass %>"><%= this.user.name %></span>.</span></h1>
+</div>
+<div id="contents">
+<%- body %>
+</div>
+<p id="footer">&copy; 2010 Hisataka Ishii, Network Science Department, Chiba Institute of Technology.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title><%= title %><% if (page) { %><%= " - "+page %><% } %></title>
+<link rel="stylesheet" type="text/css" href="/stylesheets/base.css">
+<link rel="stylesheet" type="text/css" href="/stylesheets/ui.css">
+<!-- style auto-load -->
+<%	var partialStylePath = "/stylesheets/partial/"+this.url.split("/").slice(1).pop()+".css";
+	try { filestat(__dirname+"/public"+partialStylePath); %>
+<link rel="stylesheet" type="text/css" href="<%= partialStylePath %>">
+<%	} catch(e) {} %>
+<script type="text/javascript" src="/javascripts/jquery-1.4.3.min.js"></script>
+<script type="text/javascript" src="/javascripts/ui.js"></script>
+<!-- script auto-load -->
+<%	var partialScriptPath = "/javascripts/partial/"+this.url.split("/").slice(1).pop()+".js";
+	try { filestat(__dirname+"/public"+partialScriptPath); %>
+<script type="text/javascript" src="<%= partialScriptPath %>"></script>
+<%	} catch(e) {} %>
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+<h1>MeSH 2 BETA</h1>
+<p>Multimedia e-Learning based on Simulator for Higher education.</p>
+</div>
+<div id="contents">
+<%- body %>
+</div>
+<p id="footer">&copy; 2010 Hisataka Ishii, Network Science Department, Chiba Institute of Technology.</p>
+</div>
+</body>
+</html>
