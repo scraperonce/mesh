@@ -2,7 +2,6 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
-"type":"AnimEffectStretch","speed":"500"
                         <g id="groupstart">
             <g  transform="rotate(315,654.5,367.5)">
             <ellipse cx="654.5" cy="367.5" rx="4.5" ry="6.5" fill="#FF0000" />

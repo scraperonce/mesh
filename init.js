@@ -191,7 +191,6 @@ app.post("/lesson/start", mesh.restrict(), mesh.params("subject_id"), function(r
 			
 			var server = nylon.createServer();
 			server.subject = rows.pop();
-			
 			var list = fs.readdirSync(__dirname+"/modules");
 			for (var i=0, len=list.length; i<len; i++) {
 				if (/.js$/.test(list[i])) {

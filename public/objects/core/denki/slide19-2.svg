@@ -2,7 +2,6 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
-"type":"AnimEffectWipe","speed":"500"
                         <g id="groupstart">
             <rect x="533" y="300" width="171" height="217" fill="#FFF9C3"  rx="16"  ry="16" />
             <line x1="522"  y1="339" x2="543" y2="339" style="stroke:#077091;stroke-width:4.5;" />
