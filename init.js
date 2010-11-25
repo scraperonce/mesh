@@ -215,12 +215,24 @@ app.post("/lesson/start", mesh.restrict(), mesh.params("subject_id"), function(r
 			server.log = {
 				id: result.insertId,
 				events: [],
+				lastLength: 0,
+				beginDate: (new Date()).getTime(),
 				intervals: setInterval(function() {
+					var events = server.log.events;
+					var lastLength = server.log.lastLength;
+
+					if (lastLength < events.length) {
+						lastLength = events.length;
+					} else {
+						return;
+					}
+
+					var json = { events: events };
 					db.connect();
-					db.query("UPDATE logs SET json = ? WHERE id = ?", [server.log.events, server.log.id], function() {
+					db.query("UPDATE logs SET json = ? WHERE id = ?", [JSON.stringify(json), server.log.id], function() {
 						db.end();
 					});
-				}, 10*1000);
+				}, 10*1000)
 			};
 		});
 		
@@ -251,7 +263,10 @@ app.get("/connect/:server_id", mesh.params("index"), function(req, res) {
 	var server = app.servers[id];
 	
 	server.request({index: index, from: req.user}, function(packet) {
-		server.log.events.push(packet);
+		server.log.events.push({
+			time: (new Date()).getTime() - server.log.beginDate,
+			packet: packet
+		});
 		res.send(packet);
 	});
 });
