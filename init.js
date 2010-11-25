@@ -205,6 +205,15 @@ app.post("/lesson/start", mesh.restrict(), mesh.params("subject_id"), function(r
 	res.redirect("/lesson/"+req.user.name);
 });
 
+app.post("/lesson/stop", mesh.restrict(), function(req, res) {
+	var servers = app.servers;
+
+	if (!servers[req.user.name]) {
+		delete servers[req.user.name];
+	}
+	res.redirect("/home");
+});
+
 // Connection - Comet (long-polling)
 
 app.get("/connect/:server_id", mesh.params("index"), function(req, res) {
