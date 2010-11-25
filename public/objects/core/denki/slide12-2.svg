@@ -2,7 +2,6 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
-"type":"AnimEffectZoom","speed":"500"
                         <g id="groupstart">
             <line x1="566"  y1="38" x2="566" y2="196" style="stroke:#333333;stroke-width:4.5;" />
             <line x1="403"  y1="22" x2="403" y2="189" style="stroke:#333333;stroke-width:2;" />

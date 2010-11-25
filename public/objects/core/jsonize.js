@@ -1,18 +1,20 @@
 var fs = require("fs");
 
+var dirname = process.argv[2];
+
 function extractIndex(n) {
 	return n.match(/\d+\-\d+/).toString().split("-").map(function(item) {
 		return Number(item);
 	});
 }
 
-var slides = fs.readdirSync(process.argv[2] || "./").filter(function(item) {
+var slides = fs.readdirSync(dirname || "./").filter(function(item) {
 	return /.svg$/.test(item);
 }).sort();
 
 var json = {
 	meta: {
-		name: "slide",
+		name: dirname,
 		title: "課題"
 	},
 	slide: []

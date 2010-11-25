@@ -2,7 +2,6 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
-"type":"AnimEffectWipe","speed":"500"
                         <g id="groupstart">
             <ellipse cx="680" cy="303" rx="8" ry="8" fill="#E201E7" />
             <ellipse cx="680" cy="303" rx="4" ry="4" fill="#FE02B6" />

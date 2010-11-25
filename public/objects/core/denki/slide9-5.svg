@@ -2,7 +2,6 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
-"type":"AnimEffectWipe","speed":"500"
     <rect x="6" y="337" width="231" height="41" fill=" none " />
     <g transform="translate(10, 357)" text-anchor="start">
         <text x="0" y="0" fill="#3333CC" font-family="Times New Roman" font-size="28">位相反転バッフル</text>
