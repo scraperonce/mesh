@@ -184,12 +184,17 @@ app.post("/lesson/start", mesh.restrict(), mesh.params("subject_id"), function(r
 	
 	if (!servers[req.user.name]) {
 		
-		var sql = "SELECT title, description, teacher, fullname FROM subjects, users WHERE name = teacher AND name = ? AND id = ?";
+		var server = nylon.createServer();
+		var closed = false;
 		db.connect();
-		db.query(sql, [req.user.name, id], function(err, rows) {
-			db.end();
+
+		var subjectSql = "SELECT title, description, teacher, fullname FROM subjects, users WHERE name = teacher AND name = ? AND id = ?";
+		db.query(subjectSql, [req.user.name, id], function(err, rows) {
 			
-			var server = nylon.createServer();
+			if (!closed) {
+				db.end(); closed = true;
+			}
+			
 			server.subject = rows.pop();
 			var list = fs.readdirSync(__dirname+"/modules");
 			for (var i=0, len=list.length; i<len; i++) {
@@ -198,6 +203,25 @@ app.post("/lesson/start", mesh.restrict(), mesh.params("subject_id"), function(r
 				}
 			}
 			servers[req.user.name] = server;
+		});
+
+		var logSql = "INSERT INTO logs (subject_id, json, date) VALUES(?, '{}', NOW())";
+		db.query(logSql, [id], function(err, result) {
+			
+			if (!closed) {
+				db.end(); closed = true;
+			}
+			
+			server.log = {
+				id: result.insertId,
+				events: [],
+				intervals: setInterval(function() {
+					db.connect();
+					db.query("UPDATE logs SET json = ? WHERE id = ?", [server.log.events, server.log.id], function() {
+						db.end();
+					});
+				}, 10*1000);
+			};
 		});
 		
 	}
@@ -208,6 +232,10 @@ app.post("/lesson/stop", mesh.restrict(), function(req, res) {
 	var servers = app.servers;
 
 	if (!servers[req.user.name]) {
+		var server = servers[req.user.name];
+		
+		clearInterval(server.log.intervals);
+
 		delete servers[req.user.name];
 	}
 	res.redirect("/home");
@@ -223,6 +251,7 @@ app.get("/connect/:server_id", mesh.params("index"), function(req, res) {
 	var server = app.servers[id];
 	
 	server.request({index: index, from: req.user}, function(packet) {
+		server.log.events.push(packet);
 		res.send(packet);
 	});
 });
