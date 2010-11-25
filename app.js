@@ -3,7 +3,7 @@
  */
 var app = require("./init");
  
-MESH_PORT = 3600;
+MESH_PORT = 3000;
  
 // Only listen on $ node app.js
 
