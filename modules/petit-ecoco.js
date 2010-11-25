@@ -21,7 +21,7 @@ function Module() {
 	self.on("ecoco_connect", function(param, packet) {
 		for (var n in userlist) {
 			if (packet.from != userlist[n].name && userlist[n].granted) {
-				self.send("ecoco_connect", packet.from, userlist[n]);
+				self.send("ecoco_connect", packet.from, userlist[n].name);
 			}
 		}
 		
@@ -32,7 +32,7 @@ function Module() {
 		if (param.type = "list")
 			self.send("ecoco_get", {
 				type: list, list: userlist
-			}, packet.from);
+			}, packet.from.name);
 	});
 	
 }

@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+                        <g id="groupstart">
+            <ellipse cx="680" cy="389" rx="8" ry="8" fill="#E201E7" />
+            <ellipse cx="680" cy="389" rx="4" ry="4" fill="#FE02B6" />
+            <ellipse cx="680" cy="368" rx="8" ry="8" fill="#E201E7" />
+            <ellipse cx="680" cy="368" rx="4" ry="4" fill="#FE02B6" />
+            <rect x="661" y="329" width="33" height="36" fill=" none " />
+            <g transform="translate(665, 349)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｅ</text>
+            </g>
+            <rect x="682" y="337" width="41" height="29" fill=" none " />
+            <g transform="translate(686, 357)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="18">Ｏ２</text>
+            </g>
+            <line x1="646"  y1="368" x2="676" y2="368" style="stroke:#C401C9;stroke-width:3;" />
+            <line x1="646"  y1="389" x2="677" y2="389" style="stroke:#C401C9;stroke-width:3;" />
+</g>
+</svg>

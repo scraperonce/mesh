@@ -1,0 +1,57 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="540" background-color="#FFFFFF" Encoding="UTF-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+                        <g id="groupstart">
+            <rect x="26" y="93" width="282" height="57" fill="#D5D5FF" />
+            <rect x="56" y="113" width="39" height="26" fill=" none " />
+            <g transform="translate(60, 133)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="16">ＳＡ</text>
+            </g>
+            <rect x="33" y="101" width="87" height="36" fill=" none " />
+            <g transform="translate(37, 125)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｋ　&#160;
+                 <tspan   font-family="Times New Roman" font-size="24">＝</tspan></text>
+            </g>
+            <rect x="132" y="127" width="33" height="26" fill=" none " />
+            <g transform="translate(136, 147)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="16">Ｉ&#160;１</text>
+            </g>
+            <line x1="118"  y1="120" x2="148" y2="120" style="stroke:#000000;stroke-width:2;" />
+            <rect x="117" y="89" width="32" height="36" fill=" none " />
+            <g transform="translate(121, 114)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｐ</text>
+            </g>
+            <rect x="111" y="114" width="33" height="36" fill=" none " />
+            <g transform="translate(115, 139)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｅ</text>
+            </g>
+            <rect x="280" y="100" width="36" height="26" fill=" none " />
+            <g transform="translate(284, 120)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="16">Ｏ１</text>
+            </g>
+            <rect x="185" y="105" width="87" height="36" fill=" none " />
+            <g transform="translate(189, 125)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｋ　&#160;
+                 <tspan   font-family="Times New Roman" font-size="24">＝</tspan></text>
+            </g>
+            <line x1="271"  y1="124" x2="303" y2="124" style="stroke:#000000;stroke-width:2;" />
+            <rect x="267" y="120" width="32" height="36" fill=" none " />
+            <g transform="translate(271, 146)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｐ</text>
+            </g>
+            <rect x="259" y="90" width="33" height="36" fill=" none " />
+            <g transform="translate(263, 116)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="24">Ｅ</text>
+            </g>
+            <rect x="209" y="118" width="40" height="26" fill=" none " />
+            <g transform="translate(213, 138)" text-anchor="start">
+                <text x="0" y="0"  font-family="Times New Roman" font-size="16">MB</text>
+            </g>
+            <g  transform="rotate(90,344,122)">
+            <path d="M 344 86 L 314 158 L 374 158 Z" stroke-width="" stroke="" 
+fill="#D5D5FF" />
+            </g>
+            <rect x="302" y="95" width="8" height="53" fill="#D5D5FF" />
+</g>
+</svg>

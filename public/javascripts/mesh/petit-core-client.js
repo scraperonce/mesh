@@ -79,7 +79,6 @@
 								position: "absolute", left: 0, top: 0
 							});
 							if (current.index == 0) $viewer.css("background-color", "white");
-							$touchPad.text(current.page +"/"+ current.index);
 							$viewer.append(svg);
 							$viewPort.append($viewer);
 							callee();
