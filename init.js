@@ -126,12 +126,37 @@ app.post("/logout", function(req, res) {
 
 // Home
 
-app.get("/home", function(req, res) {
+app.get("/home", function(req, res, next) {
 	var lessons	= [];
-	for (var n in app.servers) {
-		lessons.push(app.servers[n].subject);
+	var servers = app.servers;
+
+	for (var n in servers) {
+		lessons.push(servers[n].subject);
 	}
 	
+	req.lessons = lessons;
+
+	// load logs
+	var sql = "SELECT logs.id, title, description, password FROM logs, subejcts WHERE logs.subject_id = subjects.id";
+	db.connect();
+	db.query(sql, function(err, rows) {
+		var list = [];
+		consoel.log(rows);
+		/*
+		for (var n in servers) {
+			var id = servers[n].log.id;
+			for (var i=0, len=rows.length; i<len; i++) {
+				if () rows[];
+			}
+		}
+		*/
+
+		next();
+	});
+
+}, function(req, res) {
+	var lessons = req.lessons;
+
 	if (req.user.granted) {
 		var sql = "SELECT id, title, description, password FROM subjects WHERE teacher = ?";
 		db.connect();

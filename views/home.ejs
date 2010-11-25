@@ -45,3 +45,12 @@
 </ul>
 <%  } %>
 </div>
+
+<div class="box shrinkey">
+<h2 class="handle">自学自習用授業ログ</h2>
+<%  for (var i=0, len=logs.length; i<len; i++) { %>
+<ul>
+<li><a href="/logs/<%= logs[i].teacher %>">「<%= logs[i].title %>」 <%= logs[i].fullname %> 先生</a></li>
+</ul>
+<%  } %>
+</div>
