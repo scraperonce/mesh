@@ -10,12 +10,20 @@
 <% if (this.user.granted) { %>
 
 <!-- for teachers begin -->
-<form action="/lesson/start" method="post" class="box shrinkey" id="lesson_create">
+<div class="box shrinkey">
+
 <h2 class="handle">授業の開始</h2>
 <h3>作成した授業一覧</h3>
 <% if (lessonStarted) { %>
+
+<form action="/lesson/stop" method="post" id="lesson_destroy">
 <p class="box message">授業は開始済みです。<a href="/lesson">こちらから移動</a>してください。</p>
+<p class="submit"><input type="submit" value="この授業を閉じる"></p>
+</form>
+
 <% } else if (subjects.length) { %>
+
+<form action="/lesson/start" method="post" id="lesson_create">
 <table id="lesson_table">
 <tr><th width="40">選択</th><th width="250">授業名</th><th>説明</th><th width="150">パスワード</th></tr>
 <%  for (var i=0, len=subjects.length; i<len; i++) { %>
@@ -23,16 +31,21 @@
 	<td><%= subjects[i].title %></td><td><%= subjects[i].description || "" %></td><td><%= subjects[i].password || "" %></td>
 <%  } %>
 </table>
-<p class="submit"><input type="submit" value="選択した授業を作成"></p>
-<% } else { %><p class="box error_message">授業はまだ作成されていません</p><% } %>
+
+<p class="submit"><input type="submit" value="選択した授業を始める"></p>
 </form>
-<form action="/subject/create" method="post" class="box shrinkey">
+
+<% } else { %><p class="box error_message">授業はまだ作成されていません</p><% } %>
+</div>
+<div class="box shrinkey">
+<form action="/subject/create" method="post">
 <h2 class="handle">授業の作成</h2>
 <table valign="top">
 <tr><th>授業名</th><td><input type="text" name="title"></td></tr>
 <tr><th valign="top">説明</th><td><textarea name="description">ここに説明を入力してください</textarea></td></tr>
 </table>
 </form>
+</div>
 <!-- for teachers end -->
 
 <% } %>
@@ -41,16 +54,17 @@
 <h2 class="handle">現在開講中の授業</h2>
 <%  for (var i=0, len=lessons.length; i<len; i++) { %>
 <ul>
-<li><a href="/lesson/<%= lessons[i].teacher %>">「<%= lessons[i].title %>」 <%= lessons[i].fullname %> 先生</a></li>
+<li><a href="/lesson/<%= lessons[i].teacher %>">「<%= lessons[i].title %>」 - <%= lessons[i].fullname %> 先生</a></li>
 </ul>
 <%  } %>
 </div>
 
 <div class="box shrinkey">
 <h2 class="handle">自学自習用授業ログ</h2>
+<table>
 <%  for (var i=0, len=logs.length; i<len; i++) { %>
-<ul>
-<li><a href="/logs/<%= logs[i].teacher %>">「<%= logs[i].title %>」 <%= logs[i].fullname %> 先生</a></li>
-</ul>
+<tr><th><a href="/logs/<%= logs[i].id %>">「<%= logs[i].title %>」 - <%= logs[i].fullname %> 先生</a></th>
+    <td><%= new Date(logs[i].date*1-9*60*60*1000) %></td>
 <%  } %>
+</table>
 </div>

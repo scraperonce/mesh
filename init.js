@@ -137,25 +137,31 @@ app.get("/home", function(req, res, next) {
 	req.lessons = lessons;
 
 	// load logs
-	var sql = "SELECT logs.id, title, description, password FROM logs, subejcts WHERE logs.subject_id = subjects.id";
+	var sql =[
+		"SELECT logs.id, title, description, users.fullname, logs.date",
+		"FROM logs, subjects, users WHERE logs.subject_id = subjects.id AND users.name = subjects.teacher"
+	].join(" ");
 	db.connect();
 	db.query(sql, function(err, rows) {
-		var list = [];
-		consoel.log(rows);
-		/*
+		if (err) throw err;
+		
 		for (var n in servers) {
 			var id = servers[n].log.id;
-			for (var i=0, len=rows.length; i<len; i++) {
-				if () rows[];
+			for (var i=0; i<rows.length; i++) {
+				if (rows[i].id == id) {
+					rows.splice(i, 1);
+				}
 			}
 		}
-		*/
+		
+		req.logs = rows;
 
 		next();
 	});
 
 }, function(req, res) {
 	var lessons = req.lessons;
+	var logs = req.logs;
 
 	if (req.user.granted) {
 		var sql = "SELECT id, title, description, password FROM subjects WHERE teacher = ?";
@@ -166,14 +172,16 @@ app.get("/home", function(req, res, next) {
 				locals: {
 					lessonStarted: app.servers[req.user.name],
 					subjects: rows,
-					lessons: lessons	
+					lessons: lessons,
+					logs: logs
 				}
 			});
 		});
 	} else {
 		res.render("home.ejs", {
 			locals: {
-				lessons: lessons
+				lessons: lessons,
+				logs: logs
 			}
 		});
 	}
