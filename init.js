@@ -276,7 +276,7 @@ app.post("/lesson/start", mesh.restrict(), mesh.params("subject_id"), function(r
 app.post("/lesson/stop", mesh.restrict(), function(req, res) {
 	var servers = app.servers;
 
-	if (!servers[req.user.name]) {
+	if (servers[req.user.name]) {
 		var server = servers[req.user.name];
 		
 		clearInterval(server.log.intervals);
