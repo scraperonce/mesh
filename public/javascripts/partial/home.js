@@ -2,10 +2,13 @@
  * home.js
  */
 
-// program lesson table 
+// program table
+var tableIds = ["#lesson_table", "#log_table"];
 $(function() {
-	var $trows = $("#lesson_table tr:gt(0)");
-	var $selected = $("#lesson_create .indicator");
+	if (!tableIds.length) return;
+	
+	var id = tableIds.pop();
+	var $trows = $(id + " tr:gt(0)");
 	
 	$trows.each(function() {
 		var $radio = $(this).children("td").children("input:radio");
@@ -25,7 +28,7 @@ $(function() {
 			$radio.get(0).click();
 		});
 		
-		if (!$radio.get(0).checked)
-			$(this).click();
 	});
+	$($trows.get(0)).click();
+	arguments.callee();
 });

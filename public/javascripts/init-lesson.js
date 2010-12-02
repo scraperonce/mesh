@@ -7,5 +7,5 @@ $(function() {
 	module.push(core.create("#mesh .slide"));
 	module.push(ecoco.create());
 	
-	client.listen("/connect/"+location.pathname.split("/").slice(2,3).pop());
+	client.listen(location.pathname+"/connect");
 });

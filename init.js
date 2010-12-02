@@ -8,13 +8,14 @@
  */
 
 var fs = require("fs");
+var events = require("events");
 
 var express = require("express");
 var mesh = require("./lib/mesh");
 var nylon = require("./lib/nylon");
 
 var app = module.exports = new mesh.Server();
-var db = new mesh.db.Client();
+var db = app.db;
 
 // Configuration
 
@@ -164,13 +165,14 @@ app.get("/home", function(req, res, next) {
 	var logs = req.logs;
 
 	if (req.user.granted) {
+		lessons.isStarted = app.lesson.servers[req.user.name];
+		
 		var sql = "SELECT id, title, description, password FROM subjects WHERE teacher = ?";
 		db.connect();
 		db.query(sql, [req.user.name], function(err, rows) {
 			db.end();
 			res.render("home.ejs", {
 				locals: {
-					lessonStarted: app.servers[req.user.name],
 					subjects: rows,
 					lessons: lessons,
 					logs: logs
@@ -187,6 +189,128 @@ app.get("/home", function(req, res, next) {
 	}
 });
 
+// Additional method
+
+/*
+ * options = {
+ * 	path: <String> mount path,
+ *	restrict: <Boolean>
+ * }
+ *
+ * return:
+ * 	event: "start"
+ */
+app.deploy = function(path, restrict) {
+	var servers = {};
+	var emitter = new events.EventEmitter();
+
+	var localHelpers = {};
+	var dynamicHelperHandler = function() {};
+	
+	var name = path.split("/").join("");
+	
+	var through = function(req, res, next) { next(); };
+	
+	// Mounting
+	
+	app.get(path, function(req, res) {
+		if (servers[req.user.name]) {
+			res.redirect(path + "/" + req.user.name);
+		} else {
+			res.redirect("/home");
+		}
+	});
+	
+	// View
+	
+	app.get(path + "/:moderator", function(req, res) {
+		var teacher = req.param("moderator");
+		var server = servers[teacher];
+		
+		if (!server) return res.redirect(path);
+		
+		localHelpers.subject = server.subject;
+		if (teacher == req.user.name) {
+			localHelpers.isModerator = true;
+		} else {
+			localHelpers.isModerator = false;
+		}
+		
+		var dynamics = dynamicHelperHandler(req, res);
+		
+		var helpers = {};
+		for (var n in dynamics) helpers[n] = dynamics[n];
+		for (var n in localHelpers) helpers[n] = localHelpers[n];
+		
+		res.render(name + ".ejs", {
+			layout: name + "Layout",
+			locals: helpers
+		});
+	});
+	
+	// Session control
+	
+	app.post(path + "/start", restrict ? mesh.restrict() : through, function(req, res) {
+		emitter.emit("start", req, res);
+	});
+	
+	app.post(path + "/stop", restrict ? mesh.restrict() : through, function(req, res) {
+		
+		if (servers[req.user.name]) {
+			var server = servers[req.user.name];
+			
+			//clearInterval(server.log.intervals);
+			emitter.emit("stop", req, res);
+			
+			delete servers[req.user.name];
+		}
+		res.redirect("/home");
+	});
+	
+	// Comet Connection 
+	
+	app.get(path + "/:moderator/connect", mesh.params("index"), function(req, res) {
+		var id = req.param("moderator");
+		var index = req.param("index");
+		
+		var server = servers[id];
+		
+		if (server) {
+			server.get({index: index, from: req.user}, function(packet) {
+				emitter.emit("response", req, res, packet);
+				res.send(packet);
+			});
+		} else {
+			res.send(404);
+		}
+	});
+	
+	app.post(path + "/:moderator/connect", mesh.params("packet"), function(req, res) {
+		var id = req.param("moderator");
+		var packet = req.param("packet");
+		
+		var server = servers[id];
+		
+		if (server) {
+			server.post({packet: packet, from: req.user});
+			res.send(200);
+		} else {
+			res.send(404);
+		}
+	});
+	
+	emitter.localHelpers = function(obj) {
+		localHelpers = obj
+	};
+	emitter.dynamicLocalHelpers = function(fn) {
+		dynaminHelperHandler = fn;
+	};
+	
+	emitter.servers = servers;
+	
+	return emitter;
+};
+/*
 // Lesson
 
 app.get("/lesson", function(req, res) {
@@ -295,7 +419,7 @@ app.get("/connect/:server_id", mesh.params("index"), function(req, res) {
 	if (!(id in app.servers)) return res.send(404);
 	var server = app.servers[id];
 	
-	server.request({index: index, from: req.user}, function(packet) {
+	server.get({index: index, from: req.user}, function(packet) {
 		server.log.events.push({
 			time: (new Date()).getTime() - server.log.beginDate,
 			packet: packet
@@ -311,10 +435,10 @@ app.post("/connect/:server_id", mesh.params("packet"), function(req, res) {
 	if (!(id in app.servers)) return res.send(404);
 	var server = app.servers[id];
 	
-	server.response({packet: packet, from: req.user});
+	server.post({packet: packet, from: req.user});
 	res.send(200);
 });
-
+*/
 // Trickster
 
 app.get("/users.js", function(req, res) {

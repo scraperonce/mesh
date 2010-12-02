@@ -111,6 +111,9 @@
 			success: function(obj) {
 				name = obj.meta.name;
 				slides = obj.slide;
+				nylon.client.emit("core_pageto", {
+					page: 0, index: 0
+				});
 				nylon.client.send("core_init");
 			},
 		});

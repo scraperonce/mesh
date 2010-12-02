@@ -15,28 +15,18 @@ li {
 	right: 1em;
 }
 
-#lesson_table {
+table.selector {
 	width: 100%;
 	background-color: #fffefe;
 	border-collapse: collapse;
 }
-
-#lesson_table tr {
+table.selector tr {
 	border-bottom: 1px solid #ccc;
 }
-
-#lesson_table td, #lesson_table th {
+table.selector td, table.selector th {
+	text-align: left;
 	padding: .25em;
 }
-
-#lesson_table th {
-	text-align: left;
-}
-
-#lesson_table td {
-	text-align: left;
-}
-
-#lesson_create .submit {
+table.selector .submit {
 	margin-top: 1em;
 }
