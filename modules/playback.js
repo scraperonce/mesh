@@ -5,7 +5,7 @@
 var nylon = require("../lib/nylon");
 var sys = require("sys");
 var app = require("../init.js");
-var db = app.db;
+var db = require("../lib/mesh").db;
 
 function Module() {
 	// inherit
@@ -24,9 +24,10 @@ function Module() {
 		var sql = "SELECT * FROM logs WHERE id = ?";
 		var id = Number(param.id);
 		if (!isNaN(id)) {
-			db.connect();
-			db.query(sql, [id], function(err, rows) {
-				db.end();
+			var client = new db.Client();
+			client.connect();
+			client.query(sql, [id], function(err, rows) {
+				client.end();
 				self.queue("playback_load", {
 					events: JSON.parse(rows.pop().json)
 				});

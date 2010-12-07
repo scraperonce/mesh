@@ -216,8 +216,10 @@ app.deploy = (function() {
 	var filter = function(packets, dest) {
 		if (dest) {
 			for (var i=0, len=packets.length; i<len; i++) {
-				if (packets[i].dest && packets[i].dest != dest) {
-					packets[i] = null;
+				if (packets[i]) {
+					if (packets[i].dest && packets[i].dest != dest) {
+						packets[i] = null;
+					}
 				}
 			}
 		}
@@ -301,6 +303,8 @@ app.deploy = (function() {
 			
 			if (server) {
 				server.get(index, function(packet) {
+					console.log(packet);
+					console.log(packet.body);
 					packet.body = filter(packet.body, req.user.name);
 					emitter.emit("response", req, res, packet);
 					res.send(packet);

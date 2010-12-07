@@ -135,9 +135,11 @@ function CometClient() {
 					
 					var list = packet.body;
 					for (var n in list) {
-						if (list[n]) self.emit("receive", list[n]);
-						if (packet.type == "queue")
-							queue.push(list[n]);
+						if (list[n]) {
+							if (list[n]) self.emit("receive", list[n]);
+							if (packet.type == "queue")
+								queue.push(list[n]);
+						}
 					}
 					setTimeout(this._processedCallback, 0);
 				},
@@ -227,5 +229,5 @@ window[namespaces] = {
 };
 
 // for compatibility
-window.nylon = window[namespace];
+window.nylon = window[namespaces];
 })();
