@@ -303,8 +303,6 @@ app.deploy = (function() {
 			
 			if (server) {
 				server.get(index, function(packet) {
-					console.log(packet);
-					console.log(packet.body);
 					packet.body = filter(packet.body, req.user.name);
 					emitter.emit("response", req, res, packet);
 					res.send(packet);
