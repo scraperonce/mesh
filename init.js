@@ -9,13 +9,22 @@
 
 var fs = require("fs");
 var events = require("events");
+var sys = require("sys");
 
 var express = require("express");
 var mesh = require("./lib/mesh");
 var nylon = require("./lib/nylon");
 
+// Initialize
+
+mesh.db.inits = {
+	database: "mesh_core_schema",
+	username: "root",
+	password: "mesh"
+};
+
 var app = module.exports = new mesh.Server();
-var db = app.db;
+var db = new mesh.db.Client();
 
 // Configuration
 
@@ -80,11 +89,11 @@ app.get("/login", function(req, res) {
 
 app.post("/login", function(req, res) {
 	if (req.user) res.redirect("/");
-	
+
 	var user = req.param("user") || "";
 	var pass = req.param("pass") || "";
 	var auth = mesh.authorizer("/");
-	
+
 	var errorRender = function(error) {
 		res.render("login.ejs", {
 			locals: {
@@ -98,7 +107,7 @@ app.post("/login", function(req, res) {
 		return errorRender("BADINPUT");
 	}
 	
-	app.users.search(user, function(result) {
+	mesh.users.search(user, function(result) {
 		if (result) {
 			if (!result.password(pass)) {
 				return errorRender("BADPASS");
@@ -120,7 +129,8 @@ app.post("/login", function(req, res) {
 
 // Logout
 app.post("/logout", function(req, res) {
-	delete app.servers[req.user.name];
+	delete app.lesson.servers[req.user.name];
+	delete app.log.servers[req.user.name];
 	req.session.user = undefined;
 	res.redirect("/");
 });
@@ -128,15 +138,13 @@ app.post("/logout", function(req, res) {
 // Home
 
 app.get("/home", function(req, res, next) {
-	var lessons	= [];
-	var servers = app.servers;
-
+	var lessons = [];
+	var servers = app.lesson.servers;
 	for (var n in servers) {
 		lessons.push(servers[n].subject);
 	}
-	
 	req.lessons = lessons;
-
+	
 	// load logs
 	var sql =[
 		"SELECT logs.id, title, description, users.fullname, logs.date",
@@ -200,245 +208,242 @@ app.get("/home", function(req, res, next) {
  * return:
  * 	event: "start"
  */
-app.deploy = function(path, restrict) {
-	var servers = {};
-	var emitter = new events.EventEmitter();
+app.deploy = (function() {
 
-	var localHelpers = {};
-	var dynamicHelperHandler = function() {};
-	
-	var name = path.split("/").join("");
-	
-	var through = function(req, res, next) { next(); };
-	
-	// Mounting
-	
-	app.get(path, function(req, res) {
-		if (servers[req.user.name]) {
-			res.redirect(path + "/" + req.user.name);
-		} else {
-			res.redirect("/home");
-		}
-	});
-	
-	// View
-	
-	app.get(path + "/:moderator", function(req, res) {
-		var teacher = req.param("moderator");
-		var server = servers[teacher];
-		
-		if (!server) return res.redirect(path);
-		
-		localHelpers.subject = server.subject;
-		if (teacher == req.user.name) {
-			localHelpers.isModerator = true;
-		} else {
-			localHelpers.isModerator = false;
-		}
-		
-		var dynamics = dynamicHelperHandler(req, res);
-		
-		var helpers = {};
-		for (var n in dynamics) helpers[n] = dynamics[n];
-		for (var n in localHelpers) helpers[n] = localHelpers[n];
-		
-		res.render(name + ".ejs", {
-			layout: name + "Layout",
-			locals: helpers
-		});
-	});
-	
-	// Session control
-	
-	app.post(path + "/start", restrict ? mesh.restrict() : through, function(req, res) {
-		emitter.emit("start", req, res);
-	});
-	
-	app.post(path + "/stop", restrict ? mesh.restrict() : through, function(req, res) {
-		
-		if (servers[req.user.name]) {
-			var server = servers[req.user.name];
-			
-			//clearInterval(server.log.intervals);
-			emitter.emit("stop", req, res);
-			
-			delete servers[req.user.name];
-		}
-		res.redirect("/home");
-	});
-	
-	// Comet Connection 
-	
-	app.get(path + "/:moderator/connect", mesh.params("index"), function(req, res) {
-		var id = req.param("moderator");
-		var index = req.param("index");
-		
-		var server = servers[id];
-		
-		if (server) {
-			server.get({index: index, from: req.user}, function(packet) {
-				emitter.emit("response", req, res, packet);
-				res.send(packet);
-			});
-		} else {
-			res.send(404);
-		}
-	});
-	
-	app.post(path + "/:moderator/connect", mesh.params("packet"), function(req, res) {
-		var id = req.param("moderator");
-		var packet = req.param("packet");
-		
-		var server = servers[id];
-		
-		if (server) {
-			server.post({packet: packet, from: req.user});
-			res.send(200);
-		} else {
-			res.send(404);
-		}
-	});
-	
-	emitter.localHelpers = function(obj) {
-		localHelpers = obj
-	};
-	emitter.dynamicLocalHelpers = function(fn) {
-		dynaminHelperHandler = fn;
-	};
-	
-	emitter.servers = servers;
-	
-	return emitter;
-};
-/*
-// Lesson
-
-app.get("/lesson", function(req, res) {
-	if (app.servers[req.user.name]) {
-		res.redirect("/lesson/"+req.user.name);
-	} else {
-		res.redirect("/home");
-	}
-});
-
-app.get("/lesson/:teacher", function(req, res) {
-	var teacher = req.param("teacher");
-	var server = app.servers[teacher];
-	
-	if (!server) return res.redirect("/lesson");
-	
-	res.render("lesson.ejs", {
-		layout: "lessonLayout",
-		locals: {
-			subject: server.subject
-		}
-	});
-});
-
-app.post("/lesson/start", mesh.restrict(), mesh.params("subject_id"), function(req, res) {
-	var id = req.param("subject_id");
-	var servers = app.servers;
-	
-	if (!servers[req.user.name]) {
-		
-		var server = nylon.createServer();
-		var closed = false;
-		db.connect();
-
-		var subjectSql = "SELECT title, description, teacher, fullname FROM subjects, users WHERE name = teacher AND name = ? AND id = ?";
-		db.query(subjectSql, [req.user.name, id], function(err, rows) {
-			
-			if (!closed) {
-				db.end(); closed = true;
-			}
-			
-			server.subject = rows.pop();
-			var list = fs.readdirSync(__dirname+"/modules");
-			for (var i=0, len=list.length; i<len; i++) {
-				if (/.js$/.test(list[i])) {
-					server.apply(require(__dirname+"/modules/"+list[i]).create());
+	/**
+	 * 送信するパケットのあて先フィルタリング
+	 */
+	var filter = function(packets, dest) {
+		if (dest) {
+			for (var i=0, len=packets.length; i<len; i++) {
+				if (packets[i].dest && packets[i].dest != dest) {
+					packets[i] = null;
 				}
 			}
-			servers[req.user.name] = server;
-		});
+		}
+		return packets;
+	};
+	
+	return function(path, restrict) { 
+		var servers = {};
+		var emitter = new events.EventEmitter();
 
-		var logSql = "INSERT INTO logs (subject_id, json, date) VALUES(?, '{}', NOW())";
-		db.query(logSql, [id], function(err, result) {
+		var localHelpers = {};
+		var dynamicHelperHandler = function() {};
+		
+		var name = path.split("/").join("");
+		
+		var through = function(req, res, next) { next(); };
+		
+		// Mounting
+		
+		app.get(path, function(req, res) {
+			if (servers[req.user.name]) {
+				res.redirect(path + "/" + req.user.name);
+			} else {
+				res.redirect("/home");
+			}
+		});
+		
+		// View
+		
+		app.get(path + "/:moderator", function(req, res) {
+			var teacher = req.param("moderator");
+			var server = servers[teacher];
 			
-			if (!closed) {
-				db.end(); closed = true;
+			if (!server) return res.redirect(path);
+			
+			localHelpers.subject = server.subject;
+			if (teacher == req.user.name) {
+				localHelpers.isModerator = true;
+			} else {
+				localHelpers.isModerator = false;
 			}
 			
-			server.log = {
-				id: result.insertId,
-				events: [],
-				lastLength: 0,
-				beginDate: (new Date()).getTime(),
-				intervals: setInterval(function() {
-					var events = server.log.events;
-					var lastLength = server.log.lastLength;
-
-					if (lastLength < events.length) {
-						lastLength = events.length;
-					} else {
-						return;
-					}
-
-					var json = { events: events };
-					db.connect();
-					db.query("UPDATE logs SET json = ? WHERE id = ?", [JSON.stringify(json), server.log.id], function() {
-						db.end();
-					});
-				}, 10*1000)
-			};
+			var dynamics = dynamicHelperHandler(req, res);
+			
+			var helpers = {};
+			for (var n in dynamics) helpers[n] = dynamics[n];
+			for (var n in localHelpers) helpers[n] = localHelpers[n];
+			
+			res.render(name + ".ejs", {
+				layout: name + "Layout",
+				locals: helpers
+			});
 		});
 		
-	}
-	res.redirect("/lesson/"+req.user.name);
-});
-
-app.post("/lesson/stop", mesh.restrict(), function(req, res) {
-	var servers = app.servers;
-
-	if (servers[req.user.name]) {
-		var server = servers[req.user.name];
+		// Session control
 		
-		clearInterval(server.log.intervals);
+		app.post(path + "/start", restrict ? mesh.restrict() : through, function(req, res) {
+			emitter.emit("start", req, res);
+		});
+		
+		app.post(path + "/stop", restrict ? mesh.restrict() : through, function(req, res) {
+			
+			if (servers[req.user.name]) {
+				var server = servers[req.user.name];
+				
+				//clearInterval(server.log.intervals);
+				emitter.emit("stop", req, res);
+				
+				delete servers[req.user.name];
+			}
+			res.redirect("/home");
+		});
+		
+		// Comet Connection 
+		
+		app.get(path + "/:moderator/connect", mesh.params("index"), function(req, res) {
+			var id = req.param("moderator");
+			var index = req.param("index");
+			
+			var server = servers[id];
+			
+			if (server) {
+				server.get(index, function(packet) {
+					packet.body = filter(packet.body, req.user.name);
+					emitter.emit("response", req, res, packet);
+					res.send(packet);
+				});
+			} else {
+				res.send(404);
+			}
+		});
+		
+		app.post(path + "/:moderator/connect", mesh.params("packet"), function(req, res) {
+			var id = req.param("moderator");
+			var packet = req.param("packet");
+			
+			var server = servers[id];
+			
+			if (server) {
+				packet.from = req.user;
+				server.post(packet);
+				res.send(200);
+			} else {
+				res.send(404);
+			}
+		});
+		
+		emitter.localHelpers = function(obj) {
+			localHelpers = obj
+		};
+		emitter.dynamicLocalHelpers = function(fn) {
+			dynaminHelperHandler = fn;
+		};
+		
+		emitter.servers = servers;
+		
+		return emitter;
+	};
+})();
 
-		delete servers[req.user.name];
-	}
-	res.redirect("/home");
-});
-
-// Connection - Comet (long-polling)
-
-app.get("/connect/:server_id", mesh.params("index"), function(req, res) {
-	var id = req.param("server_id");
-	var index = req.param("index");
+// Lesson
+app.lesson = app.deploy("/lesson", true);
+(function() {
+	var servers = app.lesson.servers;
+	var modules = [
+		require("./modules/petit-core"),
+		require("./modules/petit-ecoco")
+	];
 	
-	if (!(id in app.servers)) return res.send(404);
-	var server = app.servers[id];
+	app.lesson.on("start", function(req, res) {
+		var id = req.param("subject_id");
+		if (!servers[req.user.name]) {
+			
+			var server = nylon.createServer();
+			db.connect();
+			
+			var subjectSql = "SELECT title, description, teacher, fullname FROM subjects, users WHERE name = teacher AND name = ? AND id = ?";
+			db.query(subjectSql, [req.user.name, id], function(err, rows) {
+				if (err) return;
+				
+				server.subject = rows.pop();
+				for (var i=0, len=modules.length; i<len; i++) {
+					server.apply(modules[i].create());
+				}
+				servers[req.user.name] = server;
+
+				res.redirect("/lesson/"+req.user.name);
+			});
+			
+			var logSql = "INSERT INTO logs (subject_id, json, date, moderator) VALUES(?, '[]', NOW(), ?)";
+			db.query(logSql, [id, req.user.name], function(err, result) {
+				if (err) return;
+				
+				server.log = {
+					id: result.insertId,
+					events: [],
+					lastLength: 0,
+					beginDate: (new Date()).getTime(),
+					intervals: setInterval(function() {
+						var events = server.log.events;
+						var lastLength = server.log.lastLength;
+
+						if (lastLength < events.length) {
+							lastLength = events.length;
+						} else {
+							return;
+						}
+						
+						server.log.update();
+					}, 10*1000),
+					update: function() {
+						db.connect();
+						var events = server.log.events;
+						db.query("UPDATE logs SET json = ? WHERE id = ?", [JSON.stringify(server.log.events), server.log.id], function() {
+							db.end();
+						});
+					},
+					close: function() {
+						server.log.update();
+						clearInterval(server.log.intervals);
+					}
+				};
+				
+				db.end();
+			});
+			
+		}
+	});
 	
-	server.get({index: index, from: req.user}, function(packet) {
+	app.lesson.on("stop", function(req, res) {
+		var server = servers[req.user.name];
+		server.log.close();	
+	});
+	
+	app.lesson.on("response", function(req, res, packet) {
+		var server = servers[req.param("moderator")];
 		server.log.events.push({
 			time: (new Date()).getTime() - server.log.beginDate,
-			packet: packet
-		});
-		res.send(packet);
+			packet: JSON.parse(JSON.stringify(packet))
+		});	
 	});
-});
+})();
 
-app.post("/connect/:server_id", mesh.params("packet"), function(req, res) {
-	var id = req.param("server_id");
-	var packet = req.param("packet");
+// Log
+
+app.log = app.deploy("/log");
+(function() {
+	var servers = app.log.servers;
+	var modules = [
+		require("./modules/playback")
+	];
 	
-	if (!(id in app.servers)) return res.send(404);
-	var server = app.servers[id];
-	
-	server.post({packet: packet, from: req.user});
-	res.send(200);
-});
-*/
+	app.log.on("start", function(req, res) {
+		if (!servers[req.user.name]) {
+			
+			var server = nylon.createServer();
+			for (var i=0, len=modules.length; i<len; i++) {
+				server.apply(modules[i].create());
+			} 
+			servers[req.user.name] = server;
+			
+			res.redirect("/log/"+req.user.name);
+		}
+	});
+})();
+
 // Trickster
 
 app.get("/users.js", function(req, res) {

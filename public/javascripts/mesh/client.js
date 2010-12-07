@@ -1,6 +1,6 @@
 (function() {
 /*!
- * Nylon - client
+ * Mesh - client
  * Asynchronous web messageing client
  *
  * Copyright(c) 2010 Hisataka Ishii <scraper.once@gmail.com>
@@ -14,7 +14,7 @@
 /**
  * Global namespace.
  */
-var namespaces = "nylon";
+var namespaces = "mesh";
  
 /**
  * Implement event-driven system to any objects.
@@ -225,4 +225,7 @@ window[namespaces] = {
 		return eval(script);
 	}
 };
+
+// for compatibility
+window.nylon = window[namespace];
 })();
