@@ -346,6 +346,7 @@ app.lesson = app.deploy("/lesson", true);
 	var servers = app.lesson.servers;
 	var modules = [
 		require("./modules/petit-core"),
+		require("./modules/slide"),
 		require("./modules/petit-ecoco")
 	];
 	
