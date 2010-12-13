@@ -28,6 +28,8 @@ var db = new mesh.db.Client();
 
 // Configuration
 
+app.__dirname = __dirname;
+
 app.configure(function(){
 	app.set("views", __dirname + "/views");
 
