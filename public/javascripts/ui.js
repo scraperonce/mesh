@@ -10,7 +10,7 @@ ui.toast = (function() {
 	var count = 0;
 	var array = [];
 	return function(str, option) {
-		array.();
+		//array.();
 		var $div = $("<div></div>");
 		$div.addClass("ui_toast");
 		$div.hide();
